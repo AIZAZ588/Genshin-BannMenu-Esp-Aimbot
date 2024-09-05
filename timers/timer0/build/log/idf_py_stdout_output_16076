@@ -1,0 +1,1041 @@
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7168
+load:0x40078000,len:15452
+load:0x40080400,len:4
+load:0x40080404,len:3684
+entry 0x40080614
+[0;32mI (29) boot: ESP-IDF v5.3 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Sep  5 2024 17:50:13[0m
+[0;33mW (29) boot: Unicore bootloader[0m
+[0;32mI (32) boot: chip revision: v1.0[0m
+[0;32mI (36) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (41) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (45) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (50) boot: Enabling RNG early entropy source...[0m
+[0;32mI (55) boot: Partition Table:[0m
+[0;32mI (59) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (66) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (74) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (81) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (89) boot: End of partition table[0m
+[0;32mI (93) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09924h ( 39204) map[0m
+[0;32mI (115) esp_image: segment 1: paddr=0001994c vaddr=3ffb0000 size=019a4h (  6564) load[0m
+[0;32mI (118) esp_image: segment 2: paddr=0001b2f8 vaddr=40080000 size=04d20h ( 19744) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=17664h ( 95844) map[0m
+[0;32mI (162) esp_image: segment 4: paddr=0003768c vaddr=40084d20 size=068d4h ( 26836) load[0m
+[0;32mI (178) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (179) boot: Disabling RNG early entropy source...[0m
+V (190) mmap: after coalescing, 3 regions are left[0m
+[0;32mI (190) cpu_start: Unicore app[0m
+D (190) cpu_start: Pro cpu up[0m
+[0;32mI (193) cpu_start: Single core mode[0m
+D (204) clk: RTC_SLOW_CLK calibration value: 3570266[0m
+D (214) cpu_start: calling init function: 0x400d0f44 on core: 0[0m
+D (214) cpu_start: calling init function: 0x400d106c on core: 0[0m
+[0;32mI (216) cpu_start: Pro cpu start user code[0m
+[0;32mI (221) cpu_start: cpu freq: 160000000 Hz[0m
+D (226) cpu_start: calling init function: 0x400d0e84 on core: 0[0m
+[0;32mI (232) app_init: Application information:[0m
+[0;32mI (236) app_init: Project name:     app-template[0m
+[0;32mI (242) app_init: App version:      1[0m
+[0;32mI (246) app_init: Compile time:     Sep  5 2024 17:49:54[0m
+[0;32mI (252) app_init: ELF file SHA256:  608a30616...[0m
+[0;32mI (257) app_init: ESP-IDF:          v5.3[0m
+D (262) cpu_start: calling init function: 0x400d0f58 on core: 0[0m
+[0;32mI (268) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (273) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (278) efuse_init: Chip rev:         v1.0[0m
+D (282) cpu_start: calling init function: 0x400d2204 on core: 0[0m
+V (288) memory_layout: reserved range is 0x3f409884 - 0x3f4098c4[0m
+D (294) memory_layout: Checking 8 reserved memory ranges:[0m
+D (300) memory_layout: Reserved memory range 0x3ff80000 - 0x3ff80000[0m
+D (306) memory_layout: Reserved memory range 0x3ff82000 - 0x3ff82000[0m
+D (313) memory_layout: Reserved memory range 0x3ffae000 - 0x3ffae6e0[0m
+D (319) memory_layout: Reserved memory range 0x3ffb0000 - 0x3ffb2188[0m
+D (326) memory_layout: Reserved memory range 0x3ffe0000 - 0x3ffe0440[0m
+D (332) memory_layout: Reserved memory range 0x40070000 - 0x40078000[0m
+D (338) memory_layout: Reserved memory range 0x40080000 - 0x4008b5f4[0m
+D (345) memory_layout: Reserved memory range 0x50001fe8 - 0x50002000[0m
+D (351) memory_layout: Building list of available memory regions:[0m
+V (357) memory_layout: Examining memory region 0x3ffae000 - 0x3ffb0000[0m
+V (364) memory_layout: Start of region 0x3ffae000 - 0x3ffb0000 overlaps reserved 0x3ffae000 - 0x3ffae6e0[0m
+D (374) memory_layout: Available memory region 0x3ffae6e0 - 0x3ffb0000[0m
+V (380) memory_layout: Examining memory region 0x3ffb0000 - 0x3ffb8000[0m
+V (387) memory_layout: Start of region 0x3ffb0000 - 0x3ffb8000 overlaps reserved 0x3ffb0000 - 0x3ffb2188[0m
+D (396) memory_layout: Available memory region 0x3ffb2188 - 0x3ffb8000[0m
+V (403) memory_layout: Examining memory region 0x3ffb8000 - 0x3ffc0000[0m
+D (409) memory_layout: Available memory region 0x3ffb8000 - 0x3ffc0000[0m
+V (416) memory_layout: Examining memory region 0x3ffc0000 - 0x3ffc2000[0m
+D (423) memory_layout: Available memory region 0x3ffc0000 - 0x3ffc2000[0m
+V (429) memory_layout: Examining memory region 0x3ffc2000 - 0x3ffc4000[0m
+D (436) memory_layout: Available memory region 0x3ffc2000 - 0x3ffc4000[0m
+V (442) memory_layout: Examining memory region 0x3ffc4000 - 0x3ffc6000[0m
+D (449) memory_layout: Available memory region 0x3ffc4000 - 0x3ffc6000[0m
+V (456) memory_layout: Examining memory region 0x3ffc6000 - 0x3ffc8000[0m
+D (462) memory_layout: Available memory region 0x3ffc6000 - 0x3ffc8000[0m
+V (469) memory_layout: Examining memory region 0x3ffc8000 - 0x3ffca000[0m
+D (475) memory_layout: Available memory region 0x3ffc8000 - 0x3ffca000[0m
+V (482) memory_layout: Examining memory region 0x3ffca000 - 0x3ffcc000[0m
+D (489) memory_layout: Available memory region 0x3ffca000 - 0x3ffcc000[0m
+V (495) memory_layout: Examining memory region 0x3ffcc000 - 0x3ffce000[0m
+D (502) memory_layout: Available memory region 0x3ffcc000 - 0x3ffce000[0m
+V (508) memory_layout: Examining memory region 0x3ffce000 - 0x3ffd0000[0m
+D (515) memory_layout: Available memory region 0x3ffce000 - 0x3ffd0000[0m
+V (522) memory_layout: Examining memory region 0x3ffd0000 - 0x3ffd2000[0m
+D (528) memory_layout: Available memory region 0x3ffd0000 - 0x3ffd2000[0m
+V (535) memory_layout: Examining memory region 0x3ffd2000 - 0x3ffd4000[0m
+D (541) memory_layout: Available memory region 0x3ffd2000 - 0x3ffd4000[0m
+V (548) memory_layout: Examining memory region 0x3ffd4000 - 0x3ffd6000[0m
+D (555) memory_layout: Available memory region 0x3ffd4000 - 0x3ffd6000[0m
+V (561) memory_layout: Examining memory region 0x3ffd6000 - 0x3ffd8000[0m
+D (568) memory_layout: Available memory region 0x3ffd6000 - 0x3ffd8000[0m
+V (574) memory_layout: Examining memory region 0x3ffd8000 - 0x3ffda000[0m
+D (581) memory_layout: Available memory region 0x3ffd8000 - 0x3ffda000[0m
+V (588) memory_layout: Examining memory region 0x3ffda000 - 0x3ffdc000[0m
+D (594) memory_layout: Available memory region 0x3ffda000 - 0x3ffdc000[0m
+V (601) memory_layout: Examining memory region 0x3ffdc000 - 0x3ffde000[0m
+D (607) memory_layout: Available memory region 0x3ffdc000 - 0x3ffde000[0m
+V (614) memory_layout: Examining memory region 0x3ffde000 - 0x3ffe0000[0m
+D (621) memory_layout: Available memory region 0x3ffde000 - 0x3ffe0000[0m
+V (627) memory_layout: Examining memory region 0x3ffe0000 - 0x3ffe4000[0m
+V (634) memory_layout: Start of region 0x3ffe0000 - 0x3ffe4000 overlaps reserved 0x3ffe0000 - 0x3ffe0440[0m
+D (643) memory_layout: Available memory region 0x3ffe0440 - 0x3ffe4000[0m
+V (650) memory_layout: Examining memory region 0x3ffe4000 - 0x3ffe8000[0m
+D (657) memory_layout: Available memory region 0x3ffe4000 - 0x3ffe8000[0m
+V (663) memory_layout: Examining memory region 0x3ffe8000 - 0x3fff0000[0m
+D (670) memory_layout: Available memory region 0x3ffe8000 - 0x3fff0000[0m
+V (676) memory_layout: Examining memory region 0x3fff0000 - 0x3fff8000[0m
+D (683) memory_layout: Available memory region 0x3fff0000 - 0x3fff8000[0m
+V (690) memory_layout: Examining memory region 0x3fff8000 - 0x3fffc000[0m
+D (696) memory_layout: Available memory region 0x3fff8000 - 0x3fffc000[0m
+V (703) memory_layout: Examining memory region 0x3fffc000 - 0x40000000[0m
+D (709) memory_layout: Available memory region 0x3fffc000 - 0x40000000[0m
+V (716) memory_layout: Examining memory region 0x40070000 - 0x40078000[0m
+V (722) memory_layout: Region 0x40070000 - 0x40078000 inside of reserved 0x40070000 - 0x40078000[0m
+V (731) memory_layout: Examining memory region 0x40078000 - 0x40080000[0m
+D (738) memory_layout: Available memory region 0x40078000 - 0x40080000[0m
+V (745) memory_layout: Examining memory region 0x40080000 - 0x40082000[0m
+V (751) memory_layout: Region 0x40080000 - 0x40082000 inside of reserved 0x40080000 - 0x4008b5f4[0m
+V (760) memory_layout: Examining memory region 0x40082000 - 0x40084000[0m
+V (767) memory_layout: Region 0x40082000 - 0x40084000 inside of reserved 0x40080000 - 0x4008b5f4[0m
+V (775) memory_layout: Examining memory region 0x40084000 - 0x40086000[0m
+V (782) memory_layout: Region 0x40084000 - 0x40086000 inside of reserved 0x40080000 - 0x4008b5f4[0m
+V (791) memory_layout: Examining memory region 0x40086000 - 0x40088000[0m
+V (797) memory_layout: Region 0x40086000 - 0x40088000 inside of reserved 0x40080000 - 0x4008b5f4[0m
+V (806) memory_layout: Examining memory region 0x40088000 - 0x4008a000[0m
+V (813) memory_layout: Region 0x40088000 - 0x4008a000 inside of reserved 0x40080000 - 0x4008b5f4[0m
+V (822) memory_layout: Examining memory region 0x4008a000 - 0x4008c000[0m
+V (828) memory_layout: Start of region 0x4008a000 - 0x4008c000 overlaps reserved 0x40080000 - 0x4008b5f4[0m
+D (838) memory_layout: Available memory region 0x4008b5f4 - 0x4008c000[0m
+V (845) memory_layout: Examining memory region 0x4008c000 - 0x4008e000[0m
+D (851) memory_layout: Available memory region 0x4008c000 - 0x4008e000[0m
+V (858) memory_layout: Examining memory region 0x4008e000 - 0x40090000[0m
+D (864) memory_layout: Available memory region 0x4008e000 - 0x40090000[0m
+V (871) memory_layout: Examining memory region 0x40090000 - 0x40092000[0m
+D (878) memory_layout: Available memory region 0x40090000 - 0x40092000[0m
+V (884) memory_layout: Examining memory region 0x40092000 - 0x40094000[0m
+D (891) memory_layout: Available memory region 0x40092000 - 0x40094000[0m
+V (897) memory_layout: Examining memory region 0x40094000 - 0x40096000[0m
+D (904) memory_layout: Available memory region 0x40094000 - 0x40096000[0m
+V (911) memory_layout: Examining memory region 0x40096000 - 0x40098000[0m
+D (917) memory_layout: Available memory region 0x40096000 - 0x40098000[0m
+V (924) memory_layout: Examining memory region 0x40098000 - 0x4009a000[0m
+D (930) memory_layout: Available memory region 0x40098000 - 0x4009a000[0m
+V (937) memory_layout: Examining memory region 0x4009a000 - 0x4009c000[0m
+D (944) memory_layout: Available memory region 0x4009a000 - 0x4009c000[0m
+V (950) memory_layout: Examining memory region 0x4009c000 - 0x4009e000[0m
+D (957) memory_layout: Available memory region 0x4009c000 - 0x4009e000[0m
+V (963) memory_layout: Examining memory region 0x4009e000 - 0x400a0000[0m
+D (970) memory_layout: Available memory region 0x4009e000 - 0x400a0000[0m
+V (976) memory_layout: Examining memory region 0x3ff80000 - 0x3ff82000[0m
+D (983) memory_layout: Available memory region 0x3ff80000 - 0x3ff82000[0m
+[0;32mI (990) heap_init: Initializing. RAM available for dynamic allocation:[0m
+D (997) heap_init: New heap initialised at 0x3ffae6e0[0m
+[0;32mI (1002) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+D (1008) heap_init: New heap initialised at 0x3ffb2188[0m
+[0;32mI (1013) heap_init: At 3FFB2188 len 0002DE78 (183 KiB): DRAM[0m
+[0;32mI (1020) heap_init: At 3FFE0440 len 0001FBC0 (126 KiB): D/IRAM[0m
+D (1026) heap_init: New heap initialised at 0x40078000[0m
+[0;32mI (1031) heap_init: At 40078000 len 00008000 (32 KiB): IRAM[0m
+D (1038) heap_init: New heap initialised at 0x4008b5f4[0m
+[0;32mI (1043) heap_init: At 4008B5F4 len 00014A0C (82 KiB): IRAM[0m
+D (1049) heap_init: New heap initialised at 0x3ff80000[0m
+[0;32mI (1054) heap_init: At 3FF80000 len 00002000 (8 KiB): RTCRAM[0m
+D (1061) cpu_start: calling init function: 0x400d352c on core: 0[0m
+D (1067) cpu_start: calling init function: 0x400d308c on core: 0[0m
+D (1073) cpu_start: calling init function: 0x400d10b0 on core: 0[0m
+V (1079) intr_alloc: esp_intr_alloc_intrstatus (cpu 0): checking args[0m
+V (1085) intr_alloc: esp_intr_alloc_intrstatus (cpu 0): Args okay. Resulting flags 0x40E[0m
+D (1094) intr_alloc: Connected src 46 to int 1 (cpu 0)[0m
+D (1099) cpu_start: calling init function: 0x400d10bc on core: 0[0m
+D (1105) cpu_start: calling init function: 0x400d4610 on core: 0[0m
+D (1111) cpu_start: calling init function: 0x400d4f78 on core: 0[0m
+D (1117) cpu_start: calling init function: 0x400d30f8 on core: 0[0m
+D (1123) cpu_start: calling init function: 0x400d345c on core: 0[0m
+D (1129) cpu_start: calling init function: 0x400d10c8 on core: 0[0m
+V (1135) memspi: raw_chip_id: 164020
+[0m
+V (1139) memspi: chip_id: 204016
+[0m
+V (1143) memspi: raw_chip_id: 164020
+[0m
+V (1146) memspi: chip_id: 204016
+[0m
+D (1150) spi_flash: trying chip: issi[0m
+D (1154) spi_flash: trying chip: gd[0m
+D (1157) spi_flash: trying chip: mxic[0m
+D (1161) spi_flash: trying chip: winbond[0m
+D (1165) spi_flash: trying chip: generic[0m
+[0;32mI (1169) spi_flash: detected chip: generic[0m
+[0;32mI (1174) spi_flash: flash io: dio[0m
+[0;33mW (1178) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+D (1191) cpu_start: calling init function: 0x400d0fe4 on core: 0[0m
+D (1197) cpu_start: calling init function: 0x400d81dc[0m
+[0;33mW (1202) timer_group: legacy driver is deprecated, please migrate to `driver/gptimer.h`[0m
+D (1211) cpu_start: calling init function: 0x400847d0[0m
+D (1216) cpu_start: calling init function: 0x400d14f0[0m
+D (1221) cpu_start: calling init function: 0x400d10ec on core: 0[0m
+V (1227) intr_alloc: esp_intr_alloc_intrstatus (cpu 0): checking args[0m
+V (1234) intr_alloc: esp_intr_alloc_intrstatus (cpu 0): Args okay. Resulting flags 0x40E[0m
+D (1242) intr_alloc: Connected src 24 to int 2 (cpu 0)[0m
+D (1247) app_start: Starting scheduler on CPU0[0m
+[0;32mI (1251) main_task: Started on CPU0[0m
+D (1251) heap_init: New heap initialised at 0x3ffe0440[0m
+V (1251) intr_alloc: esp_intr_alloc_intrstatus (cpu 0): checking args[0m
+V (1261) intr_alloc: esp_intr_alloc_intrstatus (cpu 0): Args okay. Resulting flags 0xE[0m
+D (1271) intr_alloc: Connected src 16 to int 3 (cpu 0)[0m
+[0;32mI (1271) main_task: Calling app_main()[0m
+V (1281) intr_alloc: esp_intr_alloc_intrstatus (cpu 0): checking args[0m
+V (1281) intr_alloc: esp_intr_alloc_intrstatus (cpu 0): Args okay. Resulting flags 0x40E[0m
+D (1291) intr_alloc: Connected src 14 to int 5 (cpu 0)[0m
+D (1301) LED : : ON[0m
+D (1401) LED : : ON[0m
+D (1501) LED : : ON[0m
+D (1601) LED : : ON[0m
+D (1701) LED : : ON[0m
+D (1801) LED : : ON[0m
+D (1901) LED : : ON[0m
+D (2001) LED : : ON[0m
+D (2101) LED : : ON[0m
+D (2201) LED : : ON[0m
+D (2301) LED : : ON[0m
+D (2401) LED : : OFF[0m
+D (2501) LED : : OFF[0m
+D (2601) LED : : OFF[0m
+D (2701) LED : : OFF[0m
+D (2801) LED : : OFF[0m
+D (2901) LED : : OFF[0m
+D (3001) LED : : OFF[0m
+D (3101) LED : : OFF[0m
+D (3201) LED : : OFF[0m
+D (3301) LED : : OFF[0m
+D (3401) LED : : ON[0m
+D (3501) LED : : ON[0m
+D (3601) LED : : ON[0m
+D (3701) LED : : ON[0m
+D (3801) LED : : ON[0m
+D (3901) LED : : ON[0m
+D (4001) LED : : ON[0m
+D (4101) LED : : ON[0m
+D (4201) LED : : ON[0m
+D (4301) LED : : ON[0m
+D (4401) LED : : OFF[0m
+D (4501) LED : : OFF[0m
+D (4601) LED : : OFF[0m
+D (4701) LED : : OFF[0m
+D (4801) LED : : OFF[0m
+D (4901) LED : : OFF[0m
+D (5001) LED : : OFF[0m
+D (5101) LED : : OFF[0m
+D (5201) LED : : OFF[0m
+D (5301) LED : : OFF[0m
+D (5401) LED : : ON[0m
+D (5501) LED : : ON[0m
+D (5601) LED : : ON[0m
+D (5701) LED : : ON[0m
+D (5801) LED : : ON[0m
+D (5901) LED : : ON[0m
+D (6001) LED : : ON[0m
+D (6101) LED : : ON[0m
+D (6201) LED : : ON[0m
+D (6301) LED : : ON[0m
+D (6401) LED : : OFF[0m
+D (6501) LED : : OFF[0m
+D (6601) LED : : OFF[0m
+D (6701) LED : : OFF[0m
+D (6801) LED : : OFF[0m
+D (6901) LED : : OFF[0m
+D (7001) LED : : OFF[0m
+D (7101) LED : : OFF[0m
+D (7201) LED : : OFF[0m
+D (7301) LED : : OFF[0m
+D (7401) LED : : ON[0m
+D (7501) LED : : ON[0m
+D (7601) LED : : ON[0m
+D (7701) LED : : ON[0m
+D (7801) LED : : ON[0m
+D (7901) LED : : ON[0m
+D (8001) LED : : ON[0m
+D (8101) LED : : ON[0m
+D (8201) LED : : ON[0m
+D (8301) LED : : ON[0m
+D (8401) LED : : OFF[0m
+D (8501) LED : : OFF[0m
+D (8601) LED : : OFF[0m
+D (8701) LED : : OFF[0m
+D (8801) LED : : OFF[0m
+D (8901) LED : : OFF[0m
+D (9001) LED : : OFF[0m
+D (9101) LED : : OFF[0m
+D (9201) LED : : OFF[0m
+D (9301) LED : : OFF[0m
+D (9401) LED : : ON[0m
+D (9501) LED : : ON[0m
+D (9601) LED : : ON[0m
+D (9701) LED : : ON[0m
+D (9801) LED : : ON[0m
+D (9901) LED : : ON[0m
+D (10001) LED : : ON[0m
+D (10101) LED : : ON[0m
+D (10201) LED : : ON[0m
+D (10301) LED : : ON[0m
+D (10401) LED : : OFF[0m
+D (10501) LED : : OFF[0m
+D (10601) LED : : OFF[0m
+D (10701) LED : : OFF[0m
+D (10801) LED : : OFF[0m
+D (10901) LED : : OFF[0m
+D (11001) LED : : OFF[0m
+D (11101) LED : : OFF[0m
+D (11201) LED : : OFF[0m
+D (11301) LED : : OFF[0m
+D (11401) LED : : ON[0m
+D (11501) LED : : ON[0m
+D (11601) LED : : ON[0m
+D (11701) LED : : ON[0m
+D (11801) LED : : ON[0m
+D (11901) LED : : ON[0m
+D (12001) LED : : ON[0m
+D (12101) LED : : ON[0m
+D (12201) LED : : ON[0m
+D (12301) LED : : ON[0m
+D (12401) LED : : OFF[0m
+D (12501) LED : : OFF[0m
+D (12601) LED : : OFF[0m
+D (12701) LED : : OFF[0m
+D (12801) LED : : OFF[0m
+D (12901) LED : : OFF[0m
+D (13001) LED : : OFF[0m
+D (13101) LED : : OFF[0m
+D (13201) LED : : OFF[0m
+D (13301) LED : : OFF[0m
+D (13401) LED : : ON[0m
+D (13501) LED : : ON[0m
+D (13601) LED : : ON[0m
+D (13701) LED : : ON[0m
+D (13801) LED : : ON[0m
+D (13901) LED : : ON[0m
+D (14001) LED : : ON[0m
+D (14101) LED : : ON[0m
+D (14201) LED : : ON[0m
+D (14301) LED : : ON[0m
+D (14401) LED : : OFF[0m
+D (14501) LED : : OFF[0m
+D (14601) LED : : OFF[0m
+D (14701) LED : : OFF[0m
+D (14801) LED : : OFF[0m
+D (14901) LED : : OFF[0m
+D (15001) LED : : OFF[0m
+D (15101) LED : : OFF[0m
+D (15201) LED : : OFF[0m
+D (15301) LED : : OFF[0m
+D (15401) LED : : ON[0m
+D (15501) LED : : ON[0m
+D (15601) LED : : ON[0m
+D (15701) LED : : ON[0m
+D (15801) LED : : ON[0m
+D (15901) LED : : ON[0m
+D (16001) LED : : ON[0m
+D (16101) LED : : ON[0m
+D (16201) LED : : ON[0m
+D (16301) LED : : ON[0m
+D (16401) LED : : OFF[0m
+D (16501) LED : : OFF[0m
+D (16601) LED : : OFF[0m
+D (16701) LED : : OFF[0m
+D (16801) LED : : OFF[0m
+D (16901) LED : : OFF[0m
+D (17001) LED : : OFF[0m
+D (17101) LED : : OFF[0m
+D (17201) LED : : OFF[0m
+D (17301) LED : : OFF[0m
+D (17401) LED : : ON[0m
+D (17501) LED : : ON[0m
+D (17601) LED : : ON[0m
+D (17701) LED : : ON[0m
+D (17801) LED : : ON[0m
+D (17901) LED : : ON[0m
+D (18001) LED : : ON[0m
+D (18101) LED : : ON[0m
+D (18201) LED : : ON[0m
+D (18301) LED : : ON[0m
+D (18401) LED : : OFF[0m
+D (18501) LED : : OFF[0m
+D (18601) LED : : OFF[0m
+D (18701) LED : : OFF[0m
+D (18801) LED : : OFF[0m
+D (18901) LED : : OFF[0m
+D (19001) LED : : OFF[0m
+D (19101) LED : : OFF[0m
+D (19201) LED : : OFF[0m
+D (19301) LED : : OFF[0m
+D (19401) LED : : ON[0m
+D (19501) LED : : ON[0m
+D (19601) LED : : ON[0m
+D (19701) LED : : ON[0m
+D (19801) LED : : ON[0m
+D (19901) LED : : ON[0m
+D (20001) LED : : ON[0m
+D (20101) LED : : ON[0m
+D (20201) LED : : ON[0m
+D (20301) LED : : ON[0m
+D (20401) LED : : OFF[0m
+D (20501) LED : : OFF[0m
+D (20601) LED : : OFF[0m
+D (20701) LED : : OFF[0m
+D (20801) LED : : OFF[0m
+D (20901) LED : : OFF[0m
+D (21001) LED : : OFF[0m
+D (21101) LED : : OFF[0m
+D (21201) LED : : OFF[0m
+D (21301) LED : : OFF[0m
+D (21401) LED : : ON[0m
+D (21501) LED : : ON[0m
+D (21601) LED : : ON[0m
+D (21701) LED : : ON[0m
+D (21801) LED : : ON[0m
+D (21901) LED : : ON[0m
+D (22001) LED : : ON[0m
+D (22101) LED : : ON[0m
+D (22201) LED : : ON[0m
+D (22301) LED : : ON[0m
+D (22401) LED : : OFF[0m
+D (22501) LED : : OFF[0m
+D (22601) LED : : OFF[0m
+D (22701) LED : : OFF[0m
+D (22801) LED : : OFF[0m
+D (22901) LED : : OFF[0m
+D (23001) LED : : OFF[0m
+D (23101) LED : : OFF[0m
+D (23201) LED : : OFF[0m
+D (23301) LED : : OFF[0m
+D (23401) LED : : ON[0m
+D (23501) LED : : ON[0m
+D (23601) LED : : ON[0m
+D (23701) LED : : ON[0m
+D (23801) LED : : ON[0m
+D (23901) LED : : ON[0m
+D (24001) LED : : ON[0m
+D (24101) LED : : ON[0m
+D (24201) LED : : ON[0m
+D (24301) LED : : ON[0m
+D (24401) LED : : OFF[0m
+D (24501) LED : : OFF[0m
+D (24601) LED : : OFF[0m
+D (24701) LED : : OFF[0m
+D (24801) LED : : OFF[0m
+D (24901) LED : : OFF[0m
+D (25001) LED : : OFF[0m
+D (25101) LED : : OFF[0m
+D (25201) LED : : OFF[0m
+D (25301) LED : : OFF[0m
+D (25401) LED : : ON[0m
+D (25501) LED : : ON[0m
+D (25601) LED : : ON[0m
+D (25701) LED : : ON[0m
+D (25801) LED : : ON[0m
+D (25901) LED : : ON[0m
+D (26001) LED : : ON[0m
+D (26101) LED : : ON[0m
+D (26201) LED : : ON[0m
+D (26301) LED : : ON[0m
+D (26401) LED : : OFF[0m
+D (26501) LED : : OFF[0m
+D (26601) LED : : OFF[0m
+D (26701) LED : : OFF[0m
+D (26801) LED : : OFF[0m
+D (26901) LED : : OFF[0m
+D (27001) LED : : OFF[0m
+D (27101) LED : : OFF[0m
+D (27201) LED : : OFF[0m
+D (27301) LED : : OFF[0m
+D (27401) LED : : ON[0m
+D (27501) LED : : ON[0m
+D (27601) LED : : ON[0m
+D (27701) LED : : ON[0m
+D (27801) LED : : ON[0m
+D (27901) LED : : ON[0m
+D (28001) LED : : ON[0m
+D (28101) LED : : ON[0m
+D (28201) LED : : ON[0m
+D (28301) LED : : ON[0m
+D (28401) LED : : OFF[0m
+D (28501) LED : : OFF[0m
+D (28601) LED : : OFF[0m
+D (28701) LED : : OFF[0m
+D (28801) LED : : OFF[0m
+D (28901) LED : : OFF[0m
+D (29001) LED : : OFF[0m
+D (29101) LED : : OFF[0m
+D (29201) LED : : OFF[0m
+D (29301) LED : : OFF[0m
+D (29401) LED : : ON[0m
+D (29501) LED : : ON[0m
+D (29601) LED : : ON[0m
+D (29701) LED : : ON[0m
+D (29801) LED : : ON[0m
+D (29901) LED : : ON[0m
+D (30001) LED : : ON[0m
+D (30101) LED : : ON[0m
+D (30201) LED : : ON[0m
+D (30301) LED : : ON[0m
+D (30401) LED : : OFF[0m
+D (30501) LED : : OFF[0m
+D (30601) LED : : OFF[0m
+D (30701) LED : : OFF[0m
+D (30801) LED : : OFF[0m
+D (30901) LED : : OFF[0m
+D (31001) LED : : OFF[0m
+D (31101) LED : : OFF[0m
+D (31201) LED : : OFF[0m
+D (31301) LED : : OFF[0m
+D (31401) LED : : ON[0m
+D (31501) LED : : ON[0m
+D (31601) LED : : ON[0m
+D (31701) LED : : ON[0m
+D (31801) LED : : ON[0m
+D (31901) LED : : ON[0m
+D (32001) LED : : ON[0m
+D (32101) LED : : ON[0m
+D (32201) LED : : ON[0m
+D (32301) LED : : ON[0m
+D (32401) LED : : OFF[0m
+D (32501) LED : : OFF[0m
+D (32601) LED : : OFF[0m
+D (32701) LED : : OFF[0m
+D (32801) LED : : OFF[0m
+D (32901) LED : : OFF[0m
+D (33001) LED : : OFF[0m
+D (33101) LED : : OFF[0m
+D (33201) LED : : OFF[0m
+D (33301) LED : : OFF[0m
+D (33401) LED : : ON[0m
+D (33501) LED : : ON[0m
+D (33601) LED : : ON[0m
+D (33701) LED : : ON[0m
+D (33801) LED : : ON[0m
+D (33901) LED : : ON[0m
+D (34001) LED : : ON[0m
+D (34101) LED : : ON[0m
+D (34201) LED : : ON[0m
+D (34301) LED : : ON[0m
+D (34401) LED : : OFF[0m
+D (34501) LED : : OFF[0m
+D (34601) LED : : OFF[0m
+D (34701) LED : : OFF[0m
+D (34801) LED : : OFF[0m
+D (34901) LED : : OFF[0m
+D (35001) LED : : OFF[0m
+D (35101) LED : : OFF[0m
+D (35201) LED : : OFF[0m
+D (35301) LED : : OFF[0m
+D (35401) LED : : ON[0m
+D (35501) LED : : ON[0m
+D (35601) LED : : ON[0m
+D (35701) LED : : ON[0m
+D (35801) LED : : ON[0m
+D (35901) LED : : ON[0m
+D (36001) LED : : ON[0m
+D (36101) LED : : ON[0m
+D (36201) LED : : ON[0m
+D (36301) LED : : ON[0m
+D (36401) LED : : OFF[0m
+D (36501) LED : : OFF[0m
+D (36601) LED : : OFF[0m
+D (36701) LED : : OFF[0m
+D (36801) LED : : OFF[0m
+D (36901) LED : : OFF[0m
+D (37001) LED : : OFF[0m
+D (37101) LED : : OFF[0m
+D (37201) LED : : OFF[0m
+D (37301) LED : : OFF[0m
+D (37401) LED : : ON[0m
+D (37501) LED : : ON[0m
+D (37601) LED : : ON[0m
+D (37701) LED : : ON[0m
+D (37801) LED : : ON[0m
+D (37901) LED : : ON[0m
+D (38001) LED : : ON[0m
+D (38101) LED : : ON[0m
+D (38201) LED : : ON[0m
+D (38301) LED : : ON[0m
+D (38401) LED : : OFF[0m
+D (38501) LED : : OFF[0m
+D (38601) LED : : OFF[0m
+D (38701) LED : : OFF[0m
+D (38801) LED : : OFF[0m
+D (38901) LED : : OFF[0m
+D (39001) LED : : OFF[0m
+D (39101) LED : : OFF[0m
+D (39201) LED : : OFF[0m
+D (39301) LED : : OFF[0m
+D (39401) LED : : ON[0m
+D (39501) LED : : ON[0m
+D (39601) LED : : ON[0m
+D (39701) LED : : ON[0m
+D (39801) LED : : ON[0m
+D (39901) LED : : ON[0m
+D (40001) LED : : ON[0m
+D (40101) LED : : ON[0m
+D (40201) LED : : ON[0m
+D (40301) LED : : ON[0m
+D (40401) LED : : OFF[0m
+D (40501) LED : : OFF[0m
+D (40601) LED : : OFF[0m
+D (40701) LED : : OFF[0m
+D (40801) LED : : OFF[0m
+D (40901) LED : : OFF[0m
+D (41001) LED : : OFF[0m
+D (41101) LED : : OFF[0m
+D (41201) LED : : OFF[0m
+D (41301) LED : : OFF[0m
+D (41401) LED : : ON[0m
+D (41501) LED : : ON[0m
+D (41601) LED : : ON[0m
+D (41701) LED : : ON[0m
+D (41801) LED : : ON[0m
+D (41901) LED : : ON[0m
+D (42001) LED : : ON[0m
+D (42101) LED : : ON[0m
+D (42201) LED : : ON[0m
+D (42301) LED : : ON[0m
+D (42401) LED : : OFF[0m
+D (42501) LED : : OFF[0m
+D (42601) LED : : OFF[0m
+D (42701) LED : : OFF[0m
+D (42801) LED : : OFF[0m
+D (42901) LED : : OFF[0m
+D (43001) LED : : OFF[0m
+D (43101) LED : : OFF[0m
+D (43201) LED : : OFF[0m
+D (43301) LED : : OFF[0m
+D (43401) LED : : ON[0m
+D (43501) LED : : ON[0m
+D (43601) LED : : ON[0m
+D (43701) LED : : ON[0m
+D (43801) LED : : ON[0m
+D (43901) LED : : ON[0m
+D (44001) LED : : ON[0m
+D (44101) LED : : ON[0m
+D (44201) LED : : ON[0m
+D (44301) LED : : ON[0m
+D (44401) LED : : OFF[0m
+D (44501) LED : : OFF[0m
+D (44601) LED : : OFF[0m
+D (44701) LED : : OFF[0m
+D (44801) LED : : OFF[0m
+D (44901) LED : : OFF[0m
+D (45001) LED : : OFF[0m
+D (45101) LED : : OFF[0m
+D (45201) LED : : OFF[0m
+D (45301) LED : : OFF[0m
+D (45401) LED : : ON[0m
+D (45501) LED : : ON[0m
+D (45601) LED : : ON[0m
+D (45701) LED : : ON[0m
+D (45801) LED : : ON[0m
+D (45901) LED : : ON[0m
+D (46001) LED : : ON[0m
+D (46101) LED : : ON[0m
+D (46201) LED : : ON[0m
+D (46301) LED : : ON[0m
+D (46401) LED : : OFF[0m
+D (46501) LED : : OFF[0m
+D (46601) LED : : OFF[0m
+D (46701) LED : : OFF[0m
+D (46801) LED : : OFF[0m
+D (46901) LED : : OFF[0m
+D (47001) LED : : OFF[0m
+D (47101) LED : : OFF[0m
+D (47201) LED : : OFF[0m
+D (47301) LED : : OFF[0m
+D (47401) LED : : ON[0m
+D (47501) LED : : ON[0m
+D (47601) LED : : ON[0m
+D (47701) LED : : ON[0m
+D (47801) LED : : ON[0m
+D (47901) LED : : ON[0m
+D (48001) LED : : ON[0m
+D (48101) LED : : ON[0m
+D (48201) LED : : ON[0m
+D (48301) LED : : ON[0m
+D (48401) LED : : OFF[0m
+D (48501) LED : : OFF[0m
+D (48601) LED : : OFF[0m
+D (48701) LED : : OFF[0m
+D (48801) LED : : OFF[0m
+D (48901) LED : : OFF[0m
+D (49001) LED : : OFF[0m
+D (49101) LED : : OFF[0m
+D (49201) LED : : OFF[0m
+D (49301) LED : : OFF[0m
+D (49401) LED : : ON[0m
+D (49501) LED : : ON[0m
+D (49601) LED : : ON[0m
+D (49701) LED : : ON[0m
+D (49801) LED : : ON[0m
+D (49901) LED : : ON[0m
+D (50001) LED : : ON[0m
+D (50101) LED : : ON[0m
+D (50201) LED : : ON[0m
+D (50301) LED : : ON[0m
+D (50401) LED : : OFF[0m
+D (50501) LED : : OFF[0m
+D (50601) LED : : OFF[0m
+D (50701) LED : : OFF[0m
+D (50801) LED : : OFF[0m
+D (50901) LED : : OFF[0m
+D (51001) LED : : OFF[0m
+D (51101) LED : : OFF[0m
+D (51201) LED : : OFF[0m
+D (51301) LED : : OFF[0m
+D (51401) LED : : ON[0m
+D (51501) LED : : ON[0m
+D (51601) LED : : ON[0m
+D (51701) LED : : ON[0m
+D (51801) LED : : ON[0m
+D (51901) LED : : ON[0m
+D (52001) LED : : ON[0m
+D (52101) LED : : ON[0m
+D (52201) LED : : ON[0m
+D (52301) LED : : ON[0m
+D (52401) LED : : OFF[0m
+D (52501) LED : : OFF[0m
+D (52601) LED : : OFF[0m
+D (52701) LED : : OFF[0m
+D (52801) LED : : OFF[0m
+D (52901) LED : : OFF[0m
+D (53001) LED : : OFF[0m
+D (53101) LED : : OFF[0m
+D (53201) LED : : OFF[0m
+D (53301) LED : : OFF[0m
+D (53401) LED : : ON[0m
+D (53501) LED : : ON[0m
+D (53601) LED : : ON[0m
+D (53701) LED : : ON[0m
+D (53801) LED : : ON[0m
+D (53901) LED : : ON[0m
+D (54001) LED : : ON[0m
+D (54101) LED : : ON[0m
+D (54201) LED : : ON[0m
+D (54301) LED : : ON[0m
+D (54401) LED : : OFF[0m
+D (54501) LED : : OFF[0m
+D (54601) LED : : OFF[0m
+D (54701) LED : : OFF[0m
+D (54801) LED : : OFF[0m
+D (54901) LED : : OFF[0m
+D (55001) LED : : OFF[0m
+D (55101) LED : : OFF[0m
+D (55201) LED : : OFF[0m
+D (55301) LED : : OFF[0m
+D (55401) LED : : ON[0m
+D (55501) LED : : ON[0m
+D (55601) LED : : ON[0m
+D (55701) LED : : ON[0m
+D (55801) LED : : ON[0m
+D (55901) LED : : ON[0m
+D (56001) LED : : ON[0m
+D (56101) LED : : ON[0m
+D (56201) LED : : ON[0m
+D (56301) LED : : ON[0m
+D (56401) LED : : OFF[0m
+D (56501) LED : : OFF[0m
+D (56601) LED : : OFF[0m
+D (56701) LED : : OFF[0m
+D (56801) LED : : OFF[0m
+D (56901) LED : : OFF[0m
+D (57001) LED : : OFF[0m
+D (57101) LED : : OFF[0m
+D (57201) LED : : OFF[0m
+D (57301) LED : : OFF[0m
+D (57401) LED : : ON[0m
+D (57501) LED : : ON[0m
+D (57601) LED : : ON[0m
+D (57701) LED : : ON[0m
+D (57801) LED : : ON[0m
+D (57901) LED : : ON[0m
+D (58001) LED : : ON[0m
+D (58101) LED : : ON[0m
+D (58201) LED : : ON[0m
+D (58301) LED : : ON[0m
+D (58401) LED : : OFF[0m
+D (58501) LED : : OFF[0m
+D (58601) LED : : OFF[0m
+D (58701) LED : : OFF[0m
+D (58801) LED : : OFF[0m
+D (58901) LED : : OFF[0m
+D (59001) LED : : OFF[0m
+D (59101) LED : : OFF[0m
+D (59201) LED : : OFF[0m
+D (59301) LED : : OFF[0m
+D (59401) LED : : ON[0m
+D (59501) LED : : ON[0m
+D (59601) LED : : ON[0m
+D (59701) LED : : ON[0m
+D (59801) LED : : ON[0m
+D (59901) LED : : ON[0m
+D (60001) LED : : ON[0m
+D (60101) LED : : ON[0m
+D (60201) LED : : ON[0m
+D (60301) LED : : ON[0m
+D (60401) LED : : OFF[0m
+D (60501) LED : : OFF[0m
+D (60601) LED : : OFF[0m
+D (60701) LED : : OFF[0m
+D (60801) LED : : OFF[0m
+D (60901) LED : : OFF[0m
+D (61001) LED : : OFF[0m
+D (61101) LED : : OFF[0m
+D (61201) LED : : OFF[0m
+D (61301) LED : : OFF[0m
+D (61401) LED : : ON[0m
+D (61501) LED : : ON[0m
+D (61601) LED : : ON[0m
+D (61701) LED : : ON[0m
+D (61801) LED : : ON[0m
+D (61901) LED : : ON[0m
+D (62001) LED : : ON[0m
+D (62101) LED : : ON[0m
+D (62201) LED : : ON[0m
+D (62301) LED : : ON[0m
+D (62401) LED : : OFF[0m
+D (62501) LED : : OFF[0m
+D (62601) LED : : OFF[0m
+D (62701) LED : : OFF[0m
+D (62801) LED : : OFF[0m
+D (62901) LED : : OFF[0m
+D (63001) LED : : OFF[0m
+D (63101) LED : : OFF[0m
+D (63201) LED : : OFF[0m
+D (63301) LED : : OFF[0m
+D (63401) LED : : ON[0m
+D (63501) LED : : ON[0m
+D (63601) LED : : ON[0m
+D (63701) LED : : ON[0m
+D (63801) LED : : ON[0m
+D (63901) LED : : ON[0m
+D (64001) LED : : ON[0m
+D (64101) LED : : ON[0m
+D (64201) LED : : ON[0m
+D (64301) LED : : ON[0m
+D (64401) LED : : OFF[0m
+D (64501) LED : : OFF[0m
+D (64601) LED : : OFF[0m
+D (64701) LED : : OFF[0m
+D (64801) LED : : OFF[0m
+D (64901) LED : : OFF[0m
+D (65001) LED : : OFF[0m
+D (65101) LED : : OFF[0m
+D (65201) LED : : OFF[0m
+D (65301) LED : : OFF[0m
+D (65401) LED : : ON[0m
+D (65501) LED : : ON[0m
+D (65601) LED : : ON[0m
+D (65701) LED : : ON[0m
+D (65801) LED : : ON[0m
+D (65901) LED : : ON[0m
+D (66001) LED : : ON[0m
+D (66101) LED : : ON[0m
+D (66201) LED : : ON[0m
+D (66301) LED : : ON[0m
+D (66401) LED : : OFF[0m
+D (66501) LED : : OFF[0m
+D (66601) LED : : OFF[0m
+D (66701) LED : : OFF[0m
+D (66801) LED : : OFF[0m
+D (66901) LED : : OFF[0m
+D (67001) LED : : OFF[0m
+D (67101) LED : : OFF[0m
+D (67201) LED : : OFF[0m
+D (67301) LED : : OFF[0m
+D (67401) LED : : ON[0m
+D (67501) LED : : ON[0m
+D (67601) LED : : ON[0m
+D (67701) LED : : ON[0m
+D (67801) LED : : ON[0m
+D (67901) LED : : ON[0m
+D (68001) LED : : ON[0m
+D (68101) LED : : ON[0m
+D (68201) LED : : ON[0m
+D (68301) LED : : ON[0m
+D (68401) LED : : OFF[0m
+D (68501) LED : : OFF[0m
+D (68601) LED : : OFF[0m
+D (68701) LED : : OFF[0m
+D (68801) LED : : OFF[0m
+D (68901) LED : : OFF[0m
+D (69001) LED : : OFF[0m
+D (69101) LED : : OFF[0m
+D (69201) LED : : OFF[0m
+D (69301) LED : : OFF[0m
+D (69401) LED : : ON[0m
+D (69501) LED : : ON[0m
+D (69601) LED : : ON[0m
+D (69701) LED : : ON[0m
+D (69801) LED : : ON[0m
+D (69901) LED : : ON[0m
+D (70001) LED : : ON[0m
+D (70101) LED : : ON[0m
+D (70201) LED : : ON[0m
+D (70301) LED : : ON[0m
+D (70401) LED : : OFF[0m
+D (70501) LED : : OFF[0m
+D (70601) LED : : OFF[0m
+D (70701) LED : : OFF[0m
+D (70801) LED : : OFF[0m
+D (70901) LED : : OFF[0m
+D (71001) LED : : OFF[0m
+D (71101) LED : : OFF[0m
+D (71201) LED : : OFF[0m
+D (71301) LED : : OFF[0m
+D (71401) LED : : ON[0m
+D (71501) LED : : ON[0m
+D (71601) LED : : ON[0m
+D (71701) LED : : ON[0m
+D (71801) LED : : ON[0m
+D (71901) LED : : ON[0m
+D (72001) LED : : ON[0m
+D (72101) LED : : ON[0m
+D (72201) LED : : ON[0m
+D (72301) LED : : ON[0m
+D (72401) LED : : OFF[0m
+D (72501) LED : : OFF[0m
+D (72601) LED : : OFF[0m
+D (72701) LED : : OFF[0m
+D (72801) LED : : OFF[0m
+D (72901) LED : : OFF[0m
+D (73001) LED : : OFF[0m
+D (73101) LED : : OFF[0m
+D (73201) LED : : OFF[0m
+D (73301) LED : : OFF[0m
+D (73401) LED : : ON[0m
+D (73501) LED : : ON[0m
+D (73601) LED : : ON[0m
+D (73701) LED : : ON[0m
+D (73801) LED : : ON[0m
+D (73901) LED : : ON[0m
+D (74001) LED : : ON[0m
+D (74101) LED : : ON[0m
+D (74201) LED : : ON[0m
+D (74301) LED : : ON[0m
+D (74401) LED : : OFF[0m
+D (74501) LED : : OFF[0m
+D (74601) LED : : OFF[0m
+D (74701) LED : : OFF[0m
+D (74801) LED : : OFF[0m
+D (74901) LED : : OFF[0m
+D (75001) LED : : OFF[0m
+D (75101) LED : : OFF[0m
+D (75201) LED : : OFF[0m
+D (75301) LED : : OFF[0m
+D (75401) LED : : ON[0m
+D (75501) LED : : ON[0m
+D (75601) LED : : ON[0m
+D (75701) LED : : ON[0m
+D (75801) LED : : ON[0m
+D (75901) LED : : ON[0m
+D (76001) LED : : ON[0m
+D (76101) LED : : ON[0m
+D (76201) LED : : ON[0m
+D (76301) LED : : ON[0m
+D (76401) LED : : OFF[0m
+D (76501) LED : : OFF[0m
+D (76601) LED : : OFF[0m
+D (76701) LED : : OFF[0m
+D (76801) LED : : OFF[0m
+D (76901) LED : : OFF[0m
+D (77001) LED : : OFF[0m
+D (77101) LED : : OFF[0m
+D (77201) LED : : OFF[0m
+D (77301) LED : : OFF[0m
+D (77401) LED : : ON[0m
+D (77501) LED : : ON[0m
+D (77601) LED : : ON[0m
+D (77701) LED : : ON[0m
+D (77801) LED : : ON[0m
+D (77901) LED : : ON[0m
+D (78001) LED : : ON[0m
+D (78101) LED : : ON[0m
+D (78201) LED : : ON[0m
+D (78301) LED : : ON[0m
+D (78401) LED : : OFF[0m
+D (78501) LED : : OFF[0m
+D (78601) LED : : OFF[0m
+D (78701) LED : : OFF[0m
+D (78801) LED : : OFF[0m
+D (78901) LED : : OFF[0m
+D (79001) LED : : OFF[0m
+D (79101) LED : : OFF[0m
+D (79201) LED : : OFF[0m
+D (79301) LED : : OFF[0m
+D (79401) LED : : ON[0m
+D (79501) LED : : ON[0m
+D (79601) LED : : ON[0m
+D (79701) LED : : ON[0m
+D (79801) LED : : ON[0m
+D (79901) LED : : ON[0m
+D (80001) LED : : ON[0m
+D (80101) LED : : ON[0m
+D (80201) LED : : ON[0m
+D (80301) LED : : ON[0m
+D (80401) LED : : OFF[0m
+D (80501) LED : : OFF[0m
+D (80601) LED : : OFF[0m
+D (80701) LED : : OFF[0m
+D (80801) LED : : OFF[0m
+D (80901) LED : : OFF[0m
+D (81001) LED : : OFF[0m
+D (81101) LED : : OFF[0m
+D (81201) LED : : OFF[0m
+D (81301) LED : : OFF[0m
+D (81401) LED : : ON[0m
+D (81501) LED : : ON[0m
+D (81601) LED : : ON[0m
+D (81701) LED : : ON[0m
+D (81801) LED : : ON[0m
+D (81901) LED : : ON[0m
+D (82001) LED : : ON[0m
+D (82101) LED : : ON[0m
+D (82201) LED : : ON[0m
+D (82301) LED : : ON[0m
+D (82401) LED : : OFF[0m
+D (82501) LED : : OFF[0m
+D (82601) LED : : OFF[0m
+D (82701) LED : : OFF[0m
+D (82801) LED : : OFF[0m
+D (82901) LED : : OFF[0m
+D (83001) LED : : OFF[0m
+D (83101) LED : : OFF[0m
+D (83201) LED : : OFF[0m
+D (83301) LED : : OFF[0m
+D (83401) LED : : ON[0m
+D (83501) LED : : ON[0m
+D (83601) LED : : ON[0m
+D (83701) LED : : ON[0m
+D (83801) LED : : ON[0m
