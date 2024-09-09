@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+D:/Devomech/09-09-2024/I2C/ESP32/build/CMakeFiles/bootloader
+D:/Devomech/09-09-2024/I2C/ESP32/build/CMakeFiles/bootloader.rule
+D:/Devomech/09-09-2024/I2C/ESP32/build/CMakeFiles/bootloader-complete.rule
+D:/Devomech/09-09-2024/I2C/ESP32/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+D:/Devomech/09-09-2024/I2C/ESP32/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+D:/Devomech/09-09-2024/I2C/ESP32/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+D:/Devomech/09-09-2024/I2C/ESP32/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+D:/Devomech/09-09-2024/I2C/ESP32/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+D:/Devomech/09-09-2024/I2C/ESP32/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+D:/Devomech/09-09-2024/I2C/ESP32/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
