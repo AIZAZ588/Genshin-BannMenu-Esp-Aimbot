@@ -1,0 +1,355 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/ttyACM0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+[0m
+[0;33m--- 0x4008181a: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x4008559d: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b2fd: abort at /home/aizaz/esp/esp-idf/components/newlib/abort.c:38
+0x400d1084: start_other_core at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:273
+0x40081203: call_start_cpu0 at /home/aizaz/esp/esp-idf/components/esp_system/port/cpu_start.c:616
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0m

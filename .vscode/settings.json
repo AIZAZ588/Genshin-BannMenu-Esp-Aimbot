@@ -1,0 +1,4 @@
+{
+    "cmake.sourceDirectory": "/home/aizaz/Downloads/Devomech/learning/esp32/Blink Led",
+    "idf.port": "/dev/ttyACM0"
+}
