@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/build/CMakeFiles/bootloader
+/home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/build/CMakeFiles/bootloader.rule
+/home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/build/CMakeFiles/bootloader-complete.rule
+/home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

@@ -1,0 +1,248 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/ttyACM0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400812ba: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x40084bd9: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008a12d: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:80
+0x40086f68: xTaskGenericNotify at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5644: sender at /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/main/main.c:13
+0x40085689: vPortTaskWrapper at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400812ba: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x40084bd9: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008a12d: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:80
+0x40086f68: xTaskGenericNotify at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5644: sender at /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/main/main.c:13
+0x40085689: vPortTaskWrapper at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400812ba: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x40084bd9: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008a12d: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:80
+0x40086f68: xTaskGenericNotify at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5644: sender at /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/main/main.c:13
+0x40085689: vPortTaskWrapper at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400812ba: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x40084bd9: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008a12d: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:80
+0x40086f68: xTaskGenericNotify at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5644: sender at /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/main/main.c:13
+0x40085689: vPortTaskWrapper at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400812ba: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x40084bd9: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008a12d: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:80
+0x40086f68: xTaskGenericNotify at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5644: sender at /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/main/main.c:13
+0x40085689: vPortTaskWrapper at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400812ba: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x40084bd9: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008a12d: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:80
+0x40086f68: xTaskGenericNotify at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5644: sender at /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/main/main.c:13
+0x40085689: vPortTaskWrapper at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400812ba: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x40084bd9: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008a12d: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:80
+0x40086f68: xTaskGenericNotify at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5644: sender at /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/main/main.c:13
+0x40085689: vPortTaskWrapper at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400812ba: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x40084bd9: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008a12d: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:80
+0x40086f68: xTaskGenericNotify at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5644: sender at /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/main/main.c:13
+0x40085689: vPortTaskWrapper at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400812ba: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x40084bd9: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008a12d: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:80
+0x40086f68: xTaskGenericNotify at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5644: sender at /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/main/main.c:13
+0x40085689: vPortTaskWrapper at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400812ba: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x40084bd9: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008a12d: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:80
+0x40086f68: xTaskGenericNotify at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5644: sender at /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/main/main.c:13
+0x40085689: vPortTaskWrapper at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400812ba: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x40084bd9: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008a12d: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:80
+0x40086f68: xTaskGenericNotify at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5644: sender at /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/main/main.c:13
+0x40085689: vPortTaskWrapper at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400812ba: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x40084bd9: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008a12d: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:80
+0x40086f68: xTaskGenericNotify at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5644: sender at /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/main/main.c:13
+0x40085689: vPortTaskWrapper at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400812ba: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x40084bd9: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008a12d: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:80
+0x40086f68: xTaskGenericNotify at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5644: sender at /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/main/main.c:13
+0x40085689: vPortTaskWrapper at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400812ba: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x40084bd9: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008a12d: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:80
+0x40086f68: xTaskGenericNotify at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5644: sender at /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/main/main.c:13
+0x40085689: vPortTaskWrapper at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400812ba: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x40084bd9: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008a12d: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:80
+0x40086f68: xTaskGenericNotify at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5644: sender at /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/main/main.c:13
+0x40085689: vPortTaskWrapper at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400812ba: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x40084bd9: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008a12d: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:80
+0x40086f68: xTaskGenericNotify at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5644: sender at /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/main/main.c:13
+0x40085689: vPortTaskWrapper at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400812ba: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x40084bd9: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008a12d: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:80
+0x40086f68: xTaskGenericNotify at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5644: sender at /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/main/main.c:13
+0x40085689: vPortTaskWrapper at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400812ba: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x40084bd9: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008a12d: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:80
+0x40086f68: xTaskGenericNotify at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5644: sender at /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/main/main.c:13
+0x40085689: vPortTaskWrapper at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400812ba: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x40084bd9: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008a12d: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:80
+0x40086f68: xTaskGenericNotify at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5644: sender at /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/main/main.c:13
+0x40085689: vPortTaskWrapper at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400812ba: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x40084bd9: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008a12d: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:80
+0x40086f68: xTaskGenericNotify at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5644: sender at /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/main/main.c:13
+0x40085689: vPortTaskWrapper at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400812ba: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x40084bd9: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008a12d: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:80
+0x40086f68: xTaskGenericNotify at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5644: sender at /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/main/main.c:13
+0x40085689: vPortTaskWrapper at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400812ba: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x40084bd9: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008a12d: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:80
+0x40086f68: xTaskGenericNotify at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5644: sender at /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/main/main.c:13
+0x40085689: vPortTaskWrapper at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400812ba: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x40084bd9: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008a12d: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:80
+0x40086f68: xTaskGenericNotify at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5644: sender at /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/main/main.c:13
+0x40085689: vPortTaskWrapper at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400812ba: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x40084bd9: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008a12d: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:80
+0x40086f68: xTaskGenericNotify at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5644: sender at /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/main/main.c:13
+0x40085689: vPortTaskWrapper at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400812ba: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x40084bd9: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008a12d: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:80
+0x40086f68: xTaskGenericNotify at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5644: sender at /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/main/main.c:13
+0x40085689: vPortTaskWrapper at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400812ba: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x40084bd9: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008a12d: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:80
+0x40086f68: xTaskGenericNotify at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5644: sender at /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/main/main.c:13
+0x40085689: vPortTaskWrapper at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400812ba: panic_abort at /home/aizaz/esp/esp-idf/components/esp_system/panic.c:463
+0x40084bd9: esp_system_abort at /home/aizaz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008a12d: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:80
+0x40086f68: xTaskGenericNotify at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5644: sender at /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Notification/Task Notification/main/main.c:13
+0x40085689: vPortTaskWrapper at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0m

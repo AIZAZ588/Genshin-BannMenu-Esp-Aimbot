@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1012369166,
+    "idfLocation": "/home/aizaz/esp/esp-idf",
+    "idfVersion": "5.3",
+    "active": true,
+    "systemGitExecutablePath": "/usr/bin/git",
+    "systemPythonExecutablePath": "/usr/bin/python3",
+    "envVars": {
+      "PATH": "/home/aizaz/.espressif/tools/xtensa-esp-elf-gdb/14.2_20240403/xtensa-esp-elf-gdb/bin:/home/aizaz/.espressif/tools/riscv32-esp-elf-gdb/14.2_20240403/riscv32-esp-elf-gdb/bin:/home/aizaz/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/bin:/home/aizaz/.espressif/tools/esp-clang/16.0.1-fe4f10a809/esp-clang/bin:/home/aizaz/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin:/home/aizaz/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin:/home/aizaz/.espressif/tools/cmake/3.24.0/bin:/home/aizaz/.espressif/tools/openocd-esp32/v0.12.0-esp32-20240318/openocd-esp32/bin:/home/aizaz/.espressif/tools/ninja/1.11.1/:/home/aizaz/.espressif/python_env/idf5.3_py3.10_env/bin:/home/aizaz/esp/esp-idf/tools:$PATH",
+      "IDF_COMPONENT_MANAGER": "1",
+      "OPENOCD_SCRIPTS": "/home/aizaz/.espressif/tools/openocd-esp32/v0.12.0-esp32-20240318/openocd-esp32/share/openocd/scripts",
+      "IDF_DEACTIVATE_FILE_PATH": "/tmp/tmp4zi3o33widf_127568",
+      "IDF_MAINTAINER": "1",
+      "IDF_PATH": "/home/aizaz/esp/esp-idf",
+      "IDF_PYTHON_ENV_PATH": "/home/aizaz/.espressif/python_env/idf5.3_py3.10_env",
+      "ESP_IDF_VERSION": "5.3",
+      "ESP_ROM_ELF_DIR": "/home/aizaz/.espressif/tools/esp-rom-elfs/20240305/"
+    }
+  }
+]
