@@ -1,0 +1,56 @@
+[1/12] Building C object esp-idf/led/CMakeFiles/__idf_led.dir/led.c.obj
+[2/12] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+[3/12] Linking C static library esp-idf/led/libled.a
+[4/12] Linking C static library esp-idf/main/libmain.a
+[5/12] Performing build step for 'bootloader'
+[1/1] cd /home/aizaz/Downloads/Devomech/learning/esp32/Adding_Components/build/bootloader/esp-idf/esptool_py && /home/aizaz/.espressif/python_env/idf5.3_py3.10_env/bin/python /home/aizaz/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/aizaz/Downloads/Devomech/learning/esp32/Adding_Components/build/bootloader/bootloader.bin
+Bootloader binary size 0x6720 bytes. 0x8e0 bytes (8%) free.
+[6/10] Generating ld/sections.ld
+[7/10] Linking CXX executable Adding_Components.elf
+[8/10] Generating binary image from built executable
+esptool.py v4.8.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/aizaz/Downloads/Devomech/learning/esp32/Adding_Components/build/Adding_Components.bin
+[9/10] cd /home/aizaz/Downloads/Devomech/learning/esp32/Adding_Components/build/esp-idf/esptool_py && /home/aizaz/.espressif/python_env/idf5.3_py3.10_env/bin/python /home/aizaz/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/aizaz/Downloads/Devomech/learning/esp32/Adding_Components/build/partition_table/partition-table.bin /home/aizaz/Downloads/Devomech/learning/esp32/Adding_Components/build/Adding_Components.bin
+Adding_Components.bin binary size 0x2d340 bytes. Smallest app partition is 0x100000 bytes. 0xd2cc0 bytes (82%) free.
+[9/10] cd /home/aizaz/esp/esp-idf/components/esptool_py && /home/aizaz/.espressif/tools/cmake/3.24.0/bin/cmake -D IDF_PATH=/home/aizaz/esp/esp-idf -D "SERIAL_TOOL=/home/aizaz/.espressif/python_env/idf5.3_py3.10_env/bin/python;;/home/aizaz/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/aizaz/Downloads/Devomech/learning/esp32/Adding_Components/build -P /home/aizaz/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32 -p /dev/ttyACM0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 Adding_Components.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.8.0
+Serial port /dev/ttyACM0
+Connecting....
+Chip is unknown ESP32 (revision v1.0)
+Features: WiFi, BT, Single Core, 240MHz, VRef calibration in efuse, Coding Scheme 3/4
+Crystal is 40MHz
+MAC: 7c:c2:94:c3:94:e2
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x0003dfff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+SHA digest in image updated
+Compressed 26400 bytes to 16226...
+Writing at 0x00001000... (100 %)
+Wrote 26400 bytes (16226 compressed) at 0x00001000 in 0.8 seconds (effective 258.7 kbit/s)...
+Hash of data verified.
+Compressed 185152 bytes to 94426...
+Writing at 0x00010000... (16 %)
+Writing at 0x0001ba76... (33 %)
+Writing at 0x00021573... (50 %)
+Writing at 0x00027250... (66 %)
+Writing at 0x000306f3... (83 %)
+Writing at 0x000385ad... (100 %)
+Wrote 185152 bytes (94426 compressed) at 0x00010000 in 2.7 seconds (effective 541.9 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.1 seconds (effective 419.7 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
