@@ -1,0 +1,941 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/ttyACM0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d0ea0: __esp_system_init_fn_init_efuse_check at /home/aizaz/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:31
+[0m
+[0;33m--- 0x400d0fc8: __esp_system_init_fn_init_show_cpu_freq at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:58
+[0m
+[0;33m--- 0x400d0de0: __esp_system_init_fn_init_show_app_info at /home/aizaz/esp/esp-idf/components/esp_app_format/esp_app_desc.c:104
+[0m
+[0;33m--- 0x400d0eb4: __esp_system_init_fn_init_efuse_show_app_info at /home/aizaz/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:41
+[0m
+[0;33m--- 0x400d2170: __esp_system_init_fn_init_heap at /home/aizaz/esp/esp-idf/components/heap/heap_caps_init.c:25
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40000000: _WindowOverflow4 in ROM
+[0m
+[0;33m--- 0x40000000: _WindowOverflow4 in ROM
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+[0m
+[0;33m--- 0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+[0m
+[0;33m--- 0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+[0m
+[0;33m--- 0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+[0m
+[0;33m--- 0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+[0m
+[0;33m--- 0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x400d3498: __esp_system_init_fn_esp_timer_init_nonos at /home/aizaz/esp/esp-idf/components/esp_timer/src/esp_timer_init.c:28
+[0m
+[0;33m--- 0x400d2ff8: __esp_system_init_fn_init_newlib at /home/aizaz/esp/esp-idf/components/newlib/newlib_init.c:162
+[0m
+[0;33m--- 0x400d100c: __esp_system_init_fn_init_brownout at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:67
+[0m
+[0;33m--- 0x400d1018: __esp_system_init_fn_init_newlib_time at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:81
+[0m
+[0;33m--- 0x400d457c: __esp_system_init_fn_init_vfs_uart at /home/aizaz/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:1080
+[0m
+[0;33m--- 0x400d4f30: __esp_system_init_fn_init_vfs_console at /home/aizaz/esp/esp-idf/components/esp_vfs_console/vfs_console.c:222
+[0m
+[0;33m--- 0x400d3064: __esp_system_init_fn_init_newlib_stdio at /home/aizaz/esp/esp-idf/components/newlib/newlib_init.c:207
+[0m
+[0;33m--- 0x400d33c8: __esp_system_init_fn_init_pthread at /home/aizaz/esp/esp-idf/components/pthread/pthread.c:76
+[0m
+[0;33m--- 0x400d1024: __esp_system_init_fn_init_flash at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:88
+[0m
+[0;33m--- 0x400d0f40: __esp_system_init_fn_init_efuse at /home/aizaz/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:137
+[0m
+[0;33m--- 0x40084748: enable_timer_group0_for_calibration at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_time.c:197
+[0m
+[0;33m--- 0x400d145c: esp_reset_reason_init at /home/aizaz/esp/esp-idf/components/esp_system/port/soc/esp32/reset_reason.c:60
+[0m
+[0;33m--- 0x400d1048: __esp_system_init_fn_init_disable_rtc_wdt at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:143
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4008389e: _xt_panic at /home/aizaz/esp/esp-idf/components/esp_system/port/arch/xtensa/panic_handler_asm.S:29
+[0m
+[0;33m--- 0x400d0ea0: __esp_system_init_fn_init_efuse_check at /home/aizaz/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:31
+[0m
+[0;33m--- 0x400d0fc8: __esp_system_init_fn_init_show_cpu_freq at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:58
+[0m
+[0;33m--- 0x400d0de0: __esp_system_init_fn_init_show_app_info at /home/aizaz/esp/esp-idf/components/esp_app_format/esp_app_desc.c:104
+[0m
+[0;33m--- 0x400d0eb4: __esp_system_init_fn_init_efuse_show_app_info at /home/aizaz/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:41
+[0m
+[0;33m--- 0x400d2170: __esp_system_init_fn_init_heap at /home/aizaz/esp/esp-idf/components/heap/heap_caps_init.c:25
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40000000: _WindowOverflow4 in ROM
+[0m
+[0;33m--- 0x40000000: _WindowOverflow4 in ROM
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+[0m
+[0;33m--- 0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+[0m
+[0;33m--- 0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+[0m
+[0;33m--- 0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+[0m
+[0;33m--- 0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+[0m
+[0;33m--- 0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x400d3498: __esp_system_init_fn_esp_timer_init_nonos at /home/aizaz/esp/esp-idf/components/esp_timer/src/esp_timer_init.c:28
+[0m
+[0;33m--- 0x400d2ff8: __esp_system_init_fn_init_newlib at /home/aizaz/esp/esp-idf/components/newlib/newlib_init.c:162
+[0m
+[0;33m--- 0x400d100c: __esp_system_init_fn_init_brownout at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:67
+[0m
+[0;33m--- 0x400d1018: __esp_system_init_fn_init_newlib_time at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:81
+[0m
+[0;33m--- 0x400d457c: __esp_system_init_fn_init_vfs_uart at /home/aizaz/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:1080
+[0m
+[0;33m--- 0x400d4f30: __esp_system_init_fn_init_vfs_console at /home/aizaz/esp/esp-idf/components/esp_vfs_console/vfs_console.c:222
+[0m
+[0;33m--- 0x400d3064: __esp_system_init_fn_init_newlib_stdio at /home/aizaz/esp/esp-idf/components/newlib/newlib_init.c:207
+[0m
+[0;33m--- 0x400d33c8: __esp_system_init_fn_init_pthread at /home/aizaz/esp/esp-idf/components/pthread/pthread.c:76
+[0m
+[0;33m--- 0x400d1024: __esp_system_init_fn_init_flash at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:88
+[0m
+[0;33m--- 0x400d0f40: __esp_system_init_fn_init_efuse at /home/aizaz/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:137
+[0m
+[0;33m--- 0x40084748: enable_timer_group0_for_calibration at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_time.c:197
+[0m
+[0;33m--- 0x400d145c: esp_reset_reason_init at /home/aizaz/esp/esp-idf/components/esp_system/port/soc/esp32/reset_reason.c:60
+[0m
+[0;33m--- 0x400d1048: __esp_system_init_fn_init_disable_rtc_wdt at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:143
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400838a4: _xt_panic at /home/aizaz/esp/esp-idf/components/esp_system/port/arch/xtensa/panic_handler_asm.S:30
+[0m
+[0;33m--- 0x400d0ea0: __esp_system_init_fn_init_efuse_check at /home/aizaz/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:31
+[0m
+[0;33m--- 0x400d0fc8: __esp_system_init_fn_init_show_cpu_freq at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:58
+[0m
+[0;33m--- 0x400d0de0: __esp_system_init_fn_init_show_app_info at /home/aizaz/esp/esp-idf/components/esp_app_format/esp_app_desc.c:104
+[0m
+[0;33m--- 0x400d0eb4: __esp_system_init_fn_init_efuse_show_app_info at /home/aizaz/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:41
+[0m
+[0;33m--- 0x400d2170: __esp_system_init_fn_init_heap at /home/aizaz/esp/esp-idf/components/heap/heap_caps_init.c:25
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40000000: _WindowOverflow4 in ROM
+[0m
+[0;33m--- 0x40000000: _WindowOverflow4 in ROM
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+[0m
+[0;33m--- 0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+[0m
+[0;33m--- 0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+[0m
+[0;33m--- 0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+[0m
+[0;33m--- 0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+[0m
+[0;33m--- 0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x400d3498: __esp_system_init_fn_esp_timer_init_nonos at /home/aizaz/esp/esp-idf/components/esp_timer/src/esp_timer_init.c:28
+[0m
+[0;33m--- 0x400d2ff8: __esp_system_init_fn_init_newlib at /home/aizaz/esp/esp-idf/components/newlib/newlib_init.c:162
+[0m
+[0;33m--- 0x400d100c: __esp_system_init_fn_init_brownout at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:67
+[0m
+[0;33m--- 0x400d1018: __esp_system_init_fn_init_newlib_time at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:81
+[0m
+[0;33m--- 0x400d457c: __esp_system_init_fn_init_vfs_uart at /home/aizaz/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:1080
+[0m
+[0;33m--- 0x400d4f30: __esp_system_init_fn_init_vfs_console at /home/aizaz/esp/esp-idf/components/esp_vfs_console/vfs_console.c:222
+[0m
+[0;33m--- 0x400d3064: __esp_system_init_fn_init_newlib_stdio at /home/aizaz/esp/esp-idf/components/newlib/newlib_init.c:207
+[0m
+[0;33m--- 0x400d33c8: __esp_system_init_fn_init_pthread at /home/aizaz/esp/esp-idf/components/pthread/pthread.c:76
+[0m
+[0;33m--- 0x400d1024: __esp_system_init_fn_init_flash at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:88
+[0m
+[0;33m--- 0x400d0f40: __esp_system_init_fn_init_efuse at /home/aizaz/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:137
+[0m
+[0;33m--- 0x40084748: enable_timer_group0_for_calibration at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_time.c:197
+[0m
+[0;33m--- 0x400d145c: esp_reset_reason_init at /home/aizaz/esp/esp-idf/components/esp_system/port/soc/esp32/reset_reason.c:60
+[0m
+[0;33m--- 0x400d1048: __esp_system_init_fn_init_disable_rtc_wdt at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:143
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400803c3: _DoubleExceptionVector at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:566
+[0m
+[0;33m--- 0x400d0ea0: __esp_system_init_fn_init_efuse_check at /home/aizaz/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:31
+[0m
+[0;33m--- 0x400d0fc8: __esp_system_init_fn_init_show_cpu_freq at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:58
+[0m
+[0;33m--- 0x400d0de0: __esp_system_init_fn_init_show_app_info at /home/aizaz/esp/esp-idf/components/esp_app_format/esp_app_desc.c:104
+[0m
+[0;33m--- 0x400d0eb4: __esp_system_init_fn_init_efuse_show_app_info at /home/aizaz/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:41
+[0m
+[0;33m--- 0x400d2170: __esp_system_init_fn_init_heap at /home/aizaz/esp/esp-idf/components/heap/heap_caps_init.c:25
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40000000: _WindowOverflow4 in ROM
+[0m
+[0;33m--- 0x40000000: _WindowOverflow4 in ROM
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+[0m
+[0;33m--- 0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+[0m
+[0;33m--- 0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+[0m
+[0;33m--- 0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+[0m
+[0;33m--- 0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+[0m
+[0;33m--- 0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x400d3498: __esp_system_init_fn_esp_timer_init_nonos at /home/aizaz/esp/esp-idf/components/esp_timer/src/esp_timer_init.c:28
+[0m
+[0;33m--- 0x400d2ff8: __esp_system_init_fn_init_newlib at /home/aizaz/esp/esp-idf/components/newlib/newlib_init.c:162
+[0m
+[0;33m--- 0x400d100c: __esp_system_init_fn_init_brownout at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:67
+[0m
+[0;33m--- 0x400d1018: __esp_system_init_fn_init_newlib_time at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:81
+[0m
+[0;33m--- 0x400d457c: __esp_system_init_fn_init_vfs_uart at /home/aizaz/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:1080
+[0m
+[0;33m--- 0x400d4f30: __esp_system_init_fn_init_vfs_console at /home/aizaz/esp/esp-idf/components/esp_vfs_console/vfs_console.c:222
+[0m
+[0;33m--- 0x400d3064: __esp_system_init_fn_init_newlib_stdio at /home/aizaz/esp/esp-idf/components/newlib/newlib_init.c:207
+[0m
+[0;33m--- 0x400d33c8: __esp_system_init_fn_init_pthread at /home/aizaz/esp/esp-idf/components/pthread/pthread.c:76
+[0m
+[0;33m--- 0x400d1024: __esp_system_init_fn_init_flash at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:88
+[0m
+[0;33m--- 0x400d0f40: __esp_system_init_fn_init_efuse at /home/aizaz/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:137
+[0m
+[0;33m--- 0x40084748: enable_timer_group0_for_calibration at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_time.c:197
+[0m
+[0;33m--- 0x400d145c: esp_reset_reason_init at /home/aizaz/esp/esp-idf/components/esp_system/port/soc/esp32/reset_reason.c:60
+[0m
+[0;33m--- 0x400d1048: __esp_system_init_fn_init_disable_rtc_wdt at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:143
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4008389c: _xt_panic at /home/aizaz/esp/esp-idf/components/esp_system/port/arch/xtensa/panic_handler_asm.S:28
+[0m
+[0;33m--- 0x400d0ea0: __esp_system_init_fn_init_efuse_check at /home/aizaz/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:31
+[0m
+[0;33m--- 0x400d0fc8: __esp_system_init_fn_init_show_cpu_freq at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:58
+[0m
+[0;33m--- 0x400d0de0: __esp_system_init_fn_init_show_app_info at /home/aizaz/esp/esp-idf/components/esp_app_format/esp_app_desc.c:104
+[0m
+[0;33m--- 0x400d0eb4: __esp_system_init_fn_init_efuse_show_app_info at /home/aizaz/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:41
+[0m
+[0;33m--- 0x400d2170: __esp_system_init_fn_init_heap at /home/aizaz/esp/esp-idf/components/heap/heap_caps_init.c:25
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40000000: _WindowOverflow4 in ROM
+[0m
+[0;33m--- 0x40000000: _WindowOverflow4 in ROM
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+[0m
+[0;33m--- 0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+[0m
+[0;33m--- 0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+[0m
+[0;33m--- 0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+[0m
+[0;33m--- 0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+[0m
+[0;33m--- 0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x400d3498: __esp_system_init_fn_esp_timer_init_nonos at /home/aizaz/esp/esp-idf/components/esp_timer/src/esp_timer_init.c:28
+[0m
+[0;33m--- 0x400d2ff8: __esp_system_init_fn_init_newlib at /home/aizaz/esp/esp-idf/components/newlib/newlib_init.c:162
+[0m
+[0;33m--- 0x400d100c: __esp_system_init_fn_init_brownout at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:67
+[0m
+[0;33m--- 0x400d1018: __esp_system_init_fn_init_newlib_time at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:81
+[0m
+[0;33m--- 0x400d457c: __esp_system_init_fn_init_vfs_uart at /home/aizaz/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:1080
+[0m
+[0;33m--- 0x400d4f30: __esp_system_init_fn_init_vfs_console at /home/aizaz/esp/esp-idf/components/esp_vfs_console/vfs_console.c:222
+[0m
+[0;33m--- 0x400d3064: __esp_system_init_fn_init_newlib_stdio at /home/aizaz/esp/esp-idf/components/newlib/newlib_init.c:207
+[0m
+[0;33m--- 0x400d33c8: __esp_system_init_fn_init_pthread at /home/aizaz/esp/esp-idf/components/pthread/pthread.c:76
+[0m
+[0;33m--- 0x400d1024: __esp_system_init_fn_init_flash at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:88
+[0m
+[0;33m--- 0x400d0f40: __esp_system_init_fn_init_efuse at /home/aizaz/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:137
+[0m
+[0;33m--- 0x40084748: enable_timer_group0_for_calibration at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_time.c:197
+[0m
+[0;33m--- 0x400d145c: esp_reset_reason_init at /home/aizaz/esp/esp-idf/components/esp_system/port/soc/esp32/reset_reason.c:60
+[0m
+[0;33m--- 0x400d1048: __esp_system_init_fn_init_disable_rtc_wdt at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:143
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400803c8: _DoubleExceptionVector at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:568
+[0m
+[0;33m--- 0x400d0ea0: __esp_system_init_fn_init_efuse_check at /home/aizaz/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:31
+[0m
+[0;33m--- 0x400d0fc8: __esp_system_init_fn_init_show_cpu_freq at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:58
+[0m
+[0;33m--- 0x400d0de0: __esp_system_init_fn_init_show_app_info at /home/aizaz/esp/esp-idf/components/esp_app_format/esp_app_desc.c:104
+[0m
+[0;33m--- 0x400d0eb4: __esp_system_init_fn_init_efuse_show_app_info at /home/aizaz/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:41
+[0m
+[0;33m--- 0x400d2170: __esp_system_init_fn_init_heap at /home/aizaz/esp/esp-idf/components/heap/heap_caps_init.c:25
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40000000: _WindowOverflow4 in ROM
+[0m
+[0;33m--- 0x40000000: _WindowOverflow4 in ROM
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+[0m
+[0;33m--- 0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+[0m
+[0;33m--- 0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+[0m
+[0;33m--- 0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+[0m
+[0;33m--- 0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+[0m
+[0;33m--- 0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x400d3498: __esp_system_init_fn_esp_timer_init_nonos at /home/aizaz/esp/esp-idf/components/esp_timer/src/esp_timer_init.c:28
+[0m
+[0;33m--- 0x400d2ff8: __esp_system_init_fn_init_newlib at /home/aizaz/esp/esp-idf/components/newlib/newlib_init.c:162
+[0m
+[0;33m--- 0x400d100c: __esp_system_init_fn_init_brownout at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:67
+[0m
+[0;33m--- 0x400d1018: __esp_system_init_fn_init_newlib_time at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:81
+[0m
+[0;33m--- 0x400d457c: __esp_system_init_fn_init_vfs_uart at /home/aizaz/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:1080
+[0m
+[0;33m--- 0x400d4f30: __esp_system_init_fn_init_vfs_console at /home/aizaz/esp/esp-idf/components/esp_vfs_console/vfs_console.c:222
+[0m
+[0;33m--- 0x400d3064: __esp_system_init_fn_init_newlib_stdio at /home/aizaz/esp/esp-idf/components/newlib/newlib_init.c:207
+[0m
+[0;33m--- 0x400d33c8: __esp_system_init_fn_init_pthread at /home/aizaz/esp/esp-idf/components/pthread/pthread.c:76
+[0m
+[0;33m--- 0x400d1024: __esp_system_init_fn_init_flash at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:88
+[0m
+[0;33m--- 0x400d0f40: __esp_system_init_fn_init_efuse at /home/aizaz/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:137
+[0m
+[0;33m--- 0x40084748: enable_timer_group0_for_calibration at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_time.c:197
+[0m
+[0;33m--- 0x400d145c: esp_reset_reason_init at /home/aizaz/esp/esp-idf/components/esp_system/port/soc/esp32/reset_reason.c:60
+[0m
+[0;33m--- 0x400d1048: __esp_system_init_fn_init_disable_rtc_wdt at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:143
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400803c0: _DoubleExceptionVector at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:564
+[0m
+[0;33m--- 0x400d0ea0: __esp_system_init_fn_init_efuse_check at /home/aizaz/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:31
+[0m
+[0;33m--- 0x400d0fc8: __esp_system_init_fn_init_show_cpu_freq at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:58
+[0m
+[0;33m--- 0x400d0de0: __esp_system_init_fn_init_show_app_info at /home/aizaz/esp/esp-idf/components/esp_app_format/esp_app_desc.c:104
+[0m
+[0;33m--- 0x400d0eb4: __esp_system_init_fn_init_efuse_show_app_info at /home/aizaz/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:41
+[0m
+[0;33m--- 0x400d2170: __esp_system_init_fn_init_heap at /home/aizaz/esp/esp-idf/components/heap/heap_caps_init.c:25
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40000000: _WindowOverflow4 in ROM
+[0m
+[0;33m--- 0x40000000: _WindowOverflow4 in ROM
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+[0m
+[0;33m--- 0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+[0m
+[0;33m--- 0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+[0m
+[0;33m--- 0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+[0m
+[0;33m--- 0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+[0m
+[0;33m--- 0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x400d3498: __esp_system_init_fn_esp_timer_init_nonos at /home/aizaz/esp/esp-idf/components/esp_timer/src/esp_timer_init.c:28
+[0m
+[0;33m--- 0x400d2ff8: __esp_system_init_fn_init_newlib at /home/aizaz/esp/esp-idf/components/newlib/newlib_init.c:162
+[0m
+[0;33m--- 0x400d100c: __esp_system_init_fn_init_brownout at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:67
+[0m
+[0;33m--- 0x400d1018: __esp_system_init_fn_init_newlib_time at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:81
+[0m
+[0;33m--- 0x400d457c: __esp_system_init_fn_init_vfs_uart at /home/aizaz/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:1080
+[0m
+[0;33m--- 0x400d4f30: __esp_system_init_fn_init_vfs_console at /home/aizaz/esp/esp-idf/components/esp_vfs_console/vfs_console.c:222
+[0m
+[0;33m--- 0x400d3064: __esp_system_init_fn_init_newlib_stdio at /home/aizaz/esp/esp-idf/components/newlib/newlib_init.c:207
+[0m
+[0;33m--- 0x400d33c8: __esp_system_init_fn_init_pthread at /home/aizaz/esp/esp-idf/components/pthread/pthread.c:76
+[0m
+[0;33m--- 0x400d1024: __esp_system_init_fn_init_flash at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:88
+[0m
+[0;33m--- 0x400d0f40: __esp_system_init_fn_init_efuse at /home/aizaz/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:137
+[0m
+[0;33m--- 0x40084748: enable_timer_group0_for_calibration at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_time.c:197
+[0m
+[0;33m--- 0x400d145c: esp_reset_reason_init at /home/aizaz/esp/esp-idf/components/esp_system/port/soc/esp32/reset_reason.c:60
+[0m
+[0;33m--- 0x400d1048: __esp_system_init_fn_init_disable_rtc_wdt at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:143
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400803c5: _DoubleExceptionVector at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:567
+[0m
+[0;33m--- 0x400d0ea0: __esp_system_init_fn_init_efuse_check at /home/aizaz/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:31
+[0m
+[0;33m--- 0x400d0fc8: __esp_system_init_fn_init_show_cpu_freq at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:58
+[0m
+[0;33m--- 0x400d0de0: __esp_system_init_fn_init_show_app_info at /home/aizaz/esp/esp-idf/components/esp_app_format/esp_app_desc.c:104
+[0m
+[0;33m--- 0x400d0eb4: __esp_system_init_fn_init_efuse_show_app_info at /home/aizaz/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:41
+[0m
+[0;33m--- 0x400d2170: __esp_system_init_fn_init_heap at /home/aizaz/esp/esp-idf/components/heap/heap_caps_init.c:25
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40000000: _WindowOverflow4 in ROM
+[0m
+[0;33m--- 0x40000000: _WindowOverflow4 in ROM
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+[0m
+[0;33m--- 0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+[0m
+[0;33m--- 0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+[0m
+[0;33m--- 0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+[0m
+[0;33m--- 0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+[0m
+[0;33m--- 0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x400d3498: __esp_system_init_fn_esp_timer_init_nonos at /home/aizaz/esp/esp-idf/components/esp_timer/src/esp_timer_init.c:28
+[0m
+[0;33m--- 0x400d2ff8: __esp_system_init_fn_init_newlib at /home/aizaz/esp/esp-idf/components/newlib/newlib_init.c:162
+[0m
+[0;33m--- 0x400d100c: __esp_system_init_fn_init_brownout at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:67
+[0m
+[0;33m--- 0x400d1018: __esp_system_init_fn_init_newlib_time at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:81
+[0m
+[0;33m--- 0x400d457c: __esp_system_init_fn_init_vfs_uart at /home/aizaz/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:1080
+[0m
+[0;33m--- 0x400d4f30: __esp_system_init_fn_init_vfs_console at /home/aizaz/esp/esp-idf/components/esp_vfs_console/vfs_console.c:222
+[0m
+[0;33m--- 0x400d3064: __esp_system_init_fn_init_newlib_stdio at /home/aizaz/esp/esp-idf/components/newlib/newlib_init.c:207
+[0m
+[0;33m--- 0x400d33c8: __esp_system_init_fn_init_pthread at /home/aizaz/esp/esp-idf/components/pthread/pthread.c:76
+[0m
+[0;33m--- 0x400d1024: __esp_system_init_fn_init_flash at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:88
+[0m
+[0;33m--- 0x400d0f40: __esp_system_init_fn_init_efuse at /home/aizaz/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:137
+[0m
+[0;33m--- 0x40084748: enable_timer_group0_for_calibration at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_time.c:197
+[0m
+[0;33m--- 0x400d145c: esp_reset_reason_init at /home/aizaz/esp/esp-idf/components/esp_system/port/soc/esp32/reset_reason.c:60
+[0m
+[0;33m--- 0x400d1048: __esp_system_init_fn_init_disable_rtc_wdt at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:143
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4008389c: _xt_panic at /home/aizaz/esp/esp-idf/components/esp_system/port/arch/xtensa/panic_handler_asm.S:28
+[0m
+[0;33m--- 0x400d0ea0: __esp_system_init_fn_init_efuse_check at /home/aizaz/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:31
+[0m
+[0;33m--- 0x400d0fc8: __esp_system_init_fn_init_show_cpu_freq at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:58
+[0m
+[0;33m--- 0x400d0de0: __esp_system_init_fn_init_show_app_info at /home/aizaz/esp/esp-idf/components/esp_app_format/esp_app_desc.c:104
+[0m
+[0;33m--- 0x400d0eb4: __esp_system_init_fn_init_efuse_show_app_info at /home/aizaz/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:41
+[0m
+[0;33m--- 0x400d2170: __esp_system_init_fn_init_heap at /home/aizaz/esp/esp-idf/components/heap/heap_caps_init.c:25
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40000000: _WindowOverflow4 in ROM
+[0m
+[0;33m--- 0x40000000: _WindowOverflow4 in ROM
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+[0m
+[0;33m--- 0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+[0m
+[0;33m--- 0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+[0m
+[0;33m--- 0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+[0m
+[0;33m--- 0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+[0m
+[0;33m--- 0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x400d3498: __esp_system_init_fn_esp_timer_init_nonos at /home/aizaz/esp/esp-idf/components/esp_timer/src/esp_timer_init.c:28
+[0m
+[0;33m--- 0x400d2ff8: __esp_system_init_fn_init_newlib at /home/aizaz/esp/esp-idf/components/newlib/newlib_init.c:162
+[0m
+[0;33m--- 0x400d100c: __esp_system_init_fn_init_brownout at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:67
+[0m
+[0;33m--- 0x400d1018: __esp_system_init_fn_init_newlib_time at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:81
+[0m
+[0;33m--- 0x400d457c: __esp_system_init_fn_init_vfs_uart at /home/aizaz/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:1080
+[0m
+[0;33m--- 0x400d4f30: __esp_system_init_fn_init_vfs_console at /home/aizaz/esp/esp-idf/components/esp_vfs_console/vfs_console.c:222
+[0m
+[0;33m--- 0x400d3064: __esp_system_init_fn_init_newlib_stdio at /home/aizaz/esp/esp-idf/components/newlib/newlib_init.c:207
+[0m
+[0;33m--- 0x400d33c8: __esp_system_init_fn_init_pthread at /home/aizaz/esp/esp-idf/components/pthread/pthread.c:76
+[0m
+[0;33m--- 0x400d1024: __esp_system_init_fn_init_flash at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:88
+[0m
+[0;33m--- 0x400d0f40: __esp_system_init_fn_init_efuse at /home/aizaz/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:137
+[0m
+[0;33m--- 0x40084748: enable_timer_group0_for_calibration at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_time.c:197
+[0m
+[0;33m--- 0x400d145c: esp_reset_reason_init at /home/aizaz/esp/esp-idf/components/esp_system/port/soc/esp32/reset_reason.c:60
+[0m
+[0;33m--- 0x400d1048: __esp_system_init_fn_init_disable_rtc_wdt at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:143
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400803c0: _DoubleExceptionVector at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:564
+[0m
+[0;33m--- 0x400d0ea0: __esp_system_init_fn_init_efuse_check at /home/aizaz/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:31
+[0m
+[0;33m--- 0x400d0fc8: __esp_system_init_fn_init_show_cpu_freq at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:58
+[0m
+[0;33m--- 0x400d0de0: __esp_system_init_fn_init_show_app_info at /home/aizaz/esp/esp-idf/components/esp_app_format/esp_app_desc.c:104
+[0m
+[0;33m--- 0x400d0eb4: __esp_system_init_fn_init_efuse_show_app_info at /home/aizaz/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:41
+[0m
+[0;33m--- 0x400d2170: __esp_system_init_fn_init_heap at /home/aizaz/esp/esp-idf/components/heap/heap_caps_init.c:25
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40000000: _WindowOverflow4 in ROM
+[0m
+[0;33m--- 0x40000000: _WindowOverflow4 in ROM
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+[0m
+[0;33m--- 0x40082000: lock_acquire_generic at /home/aizaz/esp/esp-idf/components/newlib/locks.c:117
+0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+[0m
+[0;33m--- 0x40084000: rtc_clk_cpu_freq_mhz_to_config at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c:442
+0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+[0m
+[0;33m--- 0x40086000: prvDeleteTCB at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4888
+0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+[0m
+[0;33m--- 0x40088000: spi_flash_ll_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h:120
+ (inlined by) spi_flash_hal_set_write_protect at /home/aizaz/esp/esp-idf/components/hal/spi_flash_hal_iram.c:86
+0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+[0m
+[0;33m--- 0x4008a000: __assert_func at /home/aizaz/esp/esp-idf/components/newlib/assert.c:67 (discriminator 4)
+0x40080000: _WindowOverflow4 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x400d3498: __esp_system_init_fn_esp_timer_init_nonos at /home/aizaz/esp/esp-idf/components/esp_timer/src/esp_timer_init.c:28
+[0m
+[0;33m--- 0x400d2ff8: __esp_system_init_fn_init_newlib at /home/aizaz/esp/esp-idf/components/newlib/newlib_init.c:162
+[0m
+[0;33m--- 0x400d100c: __esp_system_init_fn_init_brownout at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:67
+[0m
+[0;33m--- 0x400d1018: __esp_system_init_fn_init_newlib_time at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:81
+[0m
+[0;33m--- 0x400d457c: __esp_system_init_fn_init_vfs_uart at /home/aizaz/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:1080
+[0m
+[0;33m--- 0x400d4f30: __esp_system_init_fn_init_vfs_console at /home/aizaz/esp/esp-idf/components/esp_vfs_console/vfs_console.c:222
+[0m
+[0;33m--- 0x400d3064: __esp_system_init_fn_init_newlib_stdio at /home/aizaz/esp/esp-idf/components/newlib/newlib_init.c:207
+[0m
+[0;33m--- 0x400d33c8: __esp_system_init_fn_init_pthread at /home/aizaz/esp/esp-idf/components/pthread/pthread.c:76
+[0m
+[0;33m--- 0x400d1024: __esp_system_init_fn_init_flash at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:88
+[0m
+[0;33m--- 0x400d0f40: __esp_system_init_fn_init_efuse at /home/aizaz/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:137
+[0m
+[0;33m--- 0x40084748: enable_timer_group0_for_calibration at /home/aizaz/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_time.c:197
+[0m
+[0;33m--- 0x400d145c: esp_reset_reason_init at /home/aizaz/esp/esp-idf/components/esp_system/port/soc/esp32/reset_reason.c:60
+[0m
+[0;33m--- 0x400d1048: __esp_system_init_fn_init_disable_rtc_wdt at /home/aizaz/esp/esp-idf/components/esp_system/startup_funcs.c:143
+[0m
+[0m

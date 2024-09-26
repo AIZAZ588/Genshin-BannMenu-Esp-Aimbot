@@ -1,0 +1,45 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/ttyACM0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d64d3: task_wdt_timeout_handling at /home/aizaz/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+0x400d6864: task_wdt_isr at /home/aizaz/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+0x40082581: _xt_lowint1 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d2f95: uart_tx_char at /home/aizaz/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:168
+0x400d3eef: uart_write at /home/aizaz/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:223
+0x400d4c75: esp_vfs_write at /home/aizaz/esp/esp-idf/components/vfs/vfs.c:502 (discriminator 4)
+0x4000bd83: _write_r in ROM
+0x4000182a: write in ROM
+0x400d47e1: console_write at /home/aizaz/esp/esp-idf/components/esp_vfs_console/vfs_console.c:67
+0x400d4c75: esp_vfs_write at /home/aizaz/esp/esp-idf/components/vfs/vfs.c:502 (discriminator 4)
+0x4000bd83: _write_r in ROM
+0x4000117d: __swrite in ROM
+0x400592fe: __sflush_r in ROM
+0x4005937a: _fflush_r in ROM
+0x400d787d: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+0x400d7959: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:91
+0x400d7987: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+0x400d53cd: sender at /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Queue/Queue/main/main.c:17
+0x4008570d: vPortTaskWrapper at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x400d64d3: task_wdt_timeout_handling at /home/aizaz/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+0x400d6864: task_wdt_isr at /home/aizaz/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+0x40082581: _xt_lowint1 at /home/aizaz/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d2f95: uart_tx_char at /home/aizaz/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:168
+0x400d3eef: uart_write at /home/aizaz/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:223
+0x400d4c75: esp_vfs_write at /home/aizaz/esp/esp-idf/components/vfs/vfs.c:502 (discriminator 4)
+0x4000bd83: _write_r in ROM
+0x4000182a: write in ROM
+0x400d47e1: console_write at /home/aizaz/esp/esp-idf/components/esp_vfs_console/vfs_console.c:67
+0x400d4c75: esp_vfs_write at /home/aizaz/esp/esp-idf/components/vfs/vfs.c:502 (discriminator 4)
+0x4000bd83: _write_r in ROM
+0x4000117d: __swrite in ROM
+0x400592fe: __sflush_r in ROM
+0x4005937a: _fflush_r in ROM
+0x400d787d: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+0x400d7959: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:91
+0x400d7987: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+0x400d53cd: sender at /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/Queue/Queue/main/main.c:17
+0x4008570d: vPortTaskWrapper at /home/aizaz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0m
