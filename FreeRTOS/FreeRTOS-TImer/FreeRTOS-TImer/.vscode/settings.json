@@ -1,0 +1,20 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.adapterTargetName": "esp32",
+    "idf.customExtraPaths": "/home/aizaz/esp/tool/tools/xtensa-esp-elf-gdb/14.2_20240403/xtensa-esp-elf-gdb/bin:/home/aizaz/esp/tool/tools/riscv32-esp-elf-gdb/14.2_20240403/riscv32-esp-elf-gdb/bin:/home/aizaz/esp/tool/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/bin:/home/aizaz/esp/tool/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin:/home/aizaz/esp/tool/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin:/home/aizaz/esp/tool/tools/cmake/3.24.0/bin:/home/aizaz/esp/tool/tools/openocd-esp32/v0.12.0-esp32-20240318/openocd-esp32/bin:/home/aizaz/esp/tool/tools/ninja/1.11.1:/home/aizaz/esp/tool/tools/esp-rom-elfs/20240305",
+    "idf.customExtraVars": {
+        "OPENOCD_SCRIPTS": "/home/aizaz/esp/tool/tools/openocd-esp32/v0.12.0-esp32-20240318/openocd-esp32/share/openocd/scripts",
+        "ESP_ROM_ELF_DIR": "/home/aizaz/esp/tool/tools/esp-rom-elfs/20240305/"
+    },
+    "idf.espIdfPath": "/home/aizaz/esp/esp-idf",
+    "idf.openOcdConfigs": [
+        "board/esp32-wrover-kit-3.3v.cfg"
+    ],
+    "idf.port": "/dev/ttyACM0",
+    "idf.pythonBinPath": "python",
+    "idf.toolsPath": "/home/aizaz/esp/tool",
+    "files.associations": {
+        "esp_system.h": "c",
+        "timers.h": "c"
+    }
+}
