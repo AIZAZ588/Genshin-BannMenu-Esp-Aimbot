@@ -1,0 +1,15 @@
+[1/9] Performing build step for 'bootloader'
+[1/1] cd /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/High-Resolution-Timer/build/bootloader/esp-idf/esptool_py && /home/aizaz/.espressif/python_env/idf5.3_py3.10_env/bin/python /home/aizaz/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/High-Resolution-Timer/build/bootloader/bootloader.bin
+Bootloader binary size 0x6720 bytes. 0x8e0 bytes (8%) free.
+[2/7] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+[3/7] Linking C static library esp-idf/main/libmain.a
+[4/7] Generating ld/sections.ld
+[5/7] Linking CXX executable High-Resolution-Timer.elf
+[6/7] Generating binary image from built executable
+esptool.py v4.8.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/High-Resolution-Timer/build/High-Resolution-Timer.bin
+[7/7] cd /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/High-Resolution-Timer/build/esp-idf/esptool_py && /home/aizaz/.espressif/python_env/idf5.3_py3.10_env/bin/python /home/aizaz/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/High-Resolution-Timer/build/partition_table/partition-table.bin /home/aizaz/Downloads/Devomech/learning/esp32/FreeRTOS/High-Resolution-Timer/build/High-Resolution-Timer.bin
+High-Resolution-Timer.bin binary size 0x2d5d0 bytes. Smallest app partition is 0x100000 bytes. 0xd2a30 bytes (82%) free.

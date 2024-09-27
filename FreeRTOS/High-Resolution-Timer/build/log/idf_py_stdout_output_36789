@@ -1,0 +1,129 @@
+cp�ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7168
+load:0x40078000,len:15452
+load:0x40080400,len:4
+load:0x40080404,len:3684
+entry 0x40080614
+[0;32mI (29) boot: ESP-IDF v5.3.1-dirty 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Sep 27 2024 11:49:51[0m
+[0;33mW (29) boot: Unicore bootloader[0m
+[0;32mI (33) boot: chip revision: v1.0[0m
+[0;32mI (37) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (42) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (46) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (51) boot: Enabling RNG early entropy source...[0m
+[0;32mI (56) boot: Partition Table:[0m
+[0;32mI (60) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (67) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (75) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (82) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (90) boot: End of partition table[0m
+[0;32mI (94) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09258h ( 37464) map[0m
+[0;32mI (115) esp_image: segment 1: paddr=00019280 vaddr=3ffb0000 size=018f8h (  6392) load[0m
+[0;32mI (118) esp_image: segment 2: paddr=0001ab80 vaddr=40080000 size=05498h ( 21656) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=16ed8h ( 93912) map[0m
+[0;32mI (162) esp_image: segment 4: paddr=00036f00 vaddr=40085498 size=066a4h ( 26276) load[0m
+[0;32mI (178) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (179) boot: Disabling RNG early entropy source...[0m
+[0;32mI (190) cpu_start: Unicore app[0m
+[0;32mI (191) cpu_start: Single core mode[0m
+[0;32mI (201) cpu_start: Pro cpu start user code[0m
+[0;32mI (201) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (201) app_init: Application information:[0m
+[0;32mI (205) app_init: Project name:     High-Resolution-Timer[0m
+[0;32mI (212) app_init: App version:      f56f865f[0m
+[0;32mI (216) app_init: Compile time:     Sep 27 2024 11:49:41[0m
+[0;32mI (222) app_init: ELF file SHA256:  bdc9b1bed...[0m
+[0;32mI (228) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (233) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (238) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (243) efuse_init: Chip rev:         v1.0[0m
+[0;32mI (248) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (255) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (261) heap_init: At 3FFB20E0 len 0002DF20 (183 KiB): DRAM[0m
+[0;32mI (267) heap_init: At 3FFE0440 len 0001FBC0 (126 KiB): D/IRAM[0m
+[0;32mI (274) heap_init: At 40078000 len 00008000 (32 KiB): IRAM[0m
+[0;32mI (280) heap_init: At 4008BB3C len 000144C4 (81 KiB): IRAM[0m
+[0;32mI (286) heap_init: At 3FF80000 len 00002000 (8 KiB): RTCRAM[0m
+[0;32mI (294) spi_flash: detected chip: generic[0m
+[0;32mI (297) spi_flash: flash io: dio[0m
+[0;33mW (301) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (314) main_task: Started on CPU0[0m
+[0;32mI (314) main_task: Calling app_main()[0m
+Timer stats:
+Name                  Period      Alarm       
+timer@0x3ffb3eec      50          30322       
+Timer stats:
+Name                  Period      Alarm       
+timer@0x3ffb3eec      50          1032222     
+Timer stats:
+Name                  Period      Alarm       
+timer@0x3ffb3eec      50          2032222     
+Timer stats:
+Name                  Period      Alarm       
+timer@0x3ffb3eec      50          3032222     
+Timer stats:
+Name                  Period      Alarm       
+timer@0x3ffb3eec      50          4032222     
+Timer stats:
+Name                  Period      Alarm       
+timer@0x3ffb3eec      50          5032222     
+Timer stats:
+Name                  Period      Alarm       
+timer@0x3ffb3eec      50          6032222     
+Timer stats:
+Name                  Period      Alarm       
+timer@0x3ffb3eec      50          7032222     
+Timer stats:
+Name                  Period      Alarm       
+timer@0x3ffb3eec      50          8032222     
+Timer stats:
+Name                  Period      Alarm       
+timer@0x3ffb3eec      50          9032222     
+Timer stats:
+Name                  Period      Alarm       
+timer@0x3ffb3eec      50          10032222    
+Timer stats:
+Name                  Period      Alarm       
+timer@0x3ffb3eec      50          11032222    
+Timer stats:
+Name                  Period      Alarm       
+timer@0x3ffb3eec      50          12032222    
+Timer stats:
+Name                  Period      Alarm       
+timer@0x3ffb3eec      50          13032222    
+Timer stats:
+Name                  Period      Alarm       
+timer@0x3ffb3eec      50          14032222    
+Timer stats:
+Name                  Period      Alarm       
+timer@0x3ffb3eec      50          15032222    
+Timer stats:
+Name                  Period      Alarm       
+timer@0x3ffb3eec      50          16032222    
+Timer stats:
+Name                  Period      Alarm       
+timer@0x3ffb3eec      50          17032222    
+Timer stats:
+Name                  Period      Alarm       
+timer@0x3ffb3eec      50          18032222    
+Timer stats:
+Name                  Period      Alarm       
+timer@0x3ffb3eec      50          19032222    
+Timer stats:
+Name                  Period      Alarm       
+timer@0x3ffb3eec      50          20032222    
+Timer stats:
+Name                  Period      Alarm       
+timer@0x3ffb3eec      50          21032222    
+Timer stats:
+Name                  Period      Alarm       
+timer@0x3ffb3eec      50          22032222    
+Timer stats:
+Name                  Period      Alarm       
+timer@0x3ffb3eec      50          23032222    
