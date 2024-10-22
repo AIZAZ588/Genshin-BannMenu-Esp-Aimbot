@@ -1,0 +1,38 @@
+[33m0e5a4880[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Revert "ADDED : Esp high resolution timer"
+[33m8b454943[m Update README.md
+[33m9b485d16[m Update README.md
+[33mbe55df8c[m ADDED : Esp high resolution timer
+[33mf56f865f[m ADDED : FreeRTOS Timer
+[33mb45aa6cd[m ADDED : RTOS-Group Events
+[33m23303a75[m ADDED : FreeRtos-Queue
+[33mb1505069[m Added Binary Semaphore
+[33mef8f445e[m ADD : Mutex
+[33md87c4b49[m Add : FreeRTOS/Basics
+[33m48101e51[m ADD : FreeRTOS/Basic
+[33mfe1c6451[m Add : PFD Mastering freertos
+[33m1c467b60[m ADD : Components
+[33m8f331721[m ADDED : How to add header and C files to project
+[33m5f40d15a[m added SPI
+[33m7c8debb6[m updated
+[33mbb30aa30[m added manual
+[33m13dc7f2f[m added i2c
+[33mc506c9f1[m Delete PWM/readme.md
+[33mccf5e1fa[m Update README.md
+[33m6953915a[m Update README.md
+[33m51271991[m Update README.md
+[33mb38254e8[m Created PWM readme.md
+[33m89b21bbe[m added PWM
+[33m1f59b362[m added gptimer
+[33m46a5906b[m added timer0
+[33m9b06b484[m Merge branch 'main' of https://github.com/AIZAZ588/ESP32-DevKitC-V4
+[33mbe4e2880[m added Configuring Multiiple GPIOS
+[33m8988d3fe[m Update README.md
+[33m2ede877b[m Update README.md
+[33m840d3fd1[m Update README.md
+[33m8d157383[m added keyboard inputs project
+[33m7bdb7290[m added ADC project
+[33m083b1404[m Added GPIO Interrupts Project
+[33md9ed39b9[m added esp32 devkit C image
+[33m4c9cb6c2[m added push button project
+[33m06d318fa[m Added LED blink
+[33m419ee0f5[m Initial commit
